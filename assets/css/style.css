@@ -84,3 +84,32 @@ nav {
 .active {
   border-bottom: 1px solid #3a3a3a;
 }
+
+/* Footer section */
+#social-networks {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: #3a3a3a;
+}
+
+.footer-logo p {
+  font-size: medium;
+  color: #d77921;
+  text-align: center;
+}
+
+.copyright p {
+  font-size: small;
+  text-align: center;
+  color: #696969;
+  margin-bottom: 50px;
+  font-family: 'Poppins', sans-serif;
+}
