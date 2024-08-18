@@ -42,3 +42,41 @@
   font-size: 20px;
   font-weight: 500;
 }
+/* Global setting for sections */
+#introduction, #about, #mission, #activities {
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.column-left {
+  margin-bottom: 30px;
+}
+.text {
+  line-height: 2;
+}
+/* Global setting for section images */
+.introduction-img, .about-img, .mission-img, .activities-img {
+  background-position: center;
+  background-size: cover;
+  height: 157px;
+  border-radius: 10px;
+}
+/* Section images */
+.introduction-img {
+  background-image: url(../images/curry-rice-main.jpeg);
+}
+.about-img {
+  background-image: url(../images/curry-pod.jpeg);
+}
+.mission-img {
+  background-image: url(../images/mission.jpeg);
+}
+.activities-img {
+  background-image: url(../images/activity.jpg);
+}
+/* Setting for lists */
+#mission-list,
+#activity-list {
+  line-height: 1.5;
+  list-style: none;
+}
+
