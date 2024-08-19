@@ -1,0 +1,84 @@
+/* General section styles for history page */
+main {
+  padding-top: 70px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #f9f9f9;
+}
+
+/* Styling for each history section */
+section {
+  margin-bottom: 2rem;
+}
+
+/* History intro section */
+#history-intro {
+  text-align: center;
+}
+
+#history-intro h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.curry-image-container {
+  background-image: url(/assets/images/curry-rice-main.jpeg);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1.5em;
+}
+
+/* Timeline container */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  border-left: 3px solid #d77921;
+  padding-left: 1rem;
+  margin-left: 1.5rem;
+  position: relative;
+}
+
+.period {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.text {
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #3a3a3a;
+  text-align: left;
+}
+
+/* Media query for very small screens */
+@media (max-width: 400px) {
+  .timeline {
+      padding-left: 0.5rem;
+      margin-left: 1rem;
+  }
+
+  .period {
+      font-size: 1rem;
+  }
+
+  .text {
+      font-size: 0.9rem;
+  }
+}
+/* Additional styles for present-day section */
+#history-six .timeline {
+  border-left: 3px solid #3a3a3a;
+}
+
+
+
+
+
