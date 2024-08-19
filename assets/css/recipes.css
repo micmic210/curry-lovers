@@ -50,6 +50,27 @@ h2 {
   border-radius: 5px;
   margin-bottom: 15px;
 }
+.fukujinzuke-img,
+.rakkyo-img {
+  background-position: center;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.side-card {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px; 
+}
+
+.column-3 {
+  flex: 1; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
 
 /* Individual images */
 .curry-set-img {
