@@ -16,7 +16,7 @@
     <title>Curry Lovers</title>
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/">
+    <link rel="stylesheet" href="assets/css/membership.css">
 </head>
 
 <body>
@@ -45,8 +45,21 @@
             </ul>
         </nav>
     </header>
+    
+    <!-- Main -->
     <main>
-
+        <div id="form-container">
+            <form id="membership-form">
+                <h2>Let's join us!</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="input-field" required>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="input-field" required>
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" class="input-field" required>
+                <button type="submit" class="submit-button">Let's Curry!</button>
+            </form>            
+        </div>
       
     </main>
 
@@ -88,6 +101,24 @@
     </footer>
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/abf98b7714.js" crossorigin="anonymous"></script>
+    <!-- Jump to thank-you page -->
+    <script>
+        document.getElementById('membership-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const firstName = document.getElementById('first-name').value;
+            const lastName = document.getElementById('last-name').value;
+            const email = document.getElementById('email').value;
+
+            // Simple form validation
+            if (firstName && lastName && email) {
+                window.location.href = 'thank-you.html';
+            } else {
+                alert('Please fill out all fields.');
+            }
+        });
+    </script>
+
 </body>
 
 </html>
