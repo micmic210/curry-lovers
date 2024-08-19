@@ -1,0 +1,46 @@
+
+/* Images on the recipes page */
+.curry-set-img,
+.curry-pod-img,
+.curry-udon-img,
+.baked-curry-img,
+.curry-croquette-img,
+.curry-bread-img {
+  background-position: center;
+  background-size: cover;
+  width: 40%;
+  height: 270px;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+/* Individual images */
+.curry-set-img {
+  background-image: url(../images/curry-set.jpg);
+}
+
+.curry-pod-img {
+  background-image: url(../images/curry-pod.jpeg);
+}
+
+.curry-udon-img {
+  background-image: url(../images/curry-udon.jpeg);
+}
+
+.baked-curry-img {
+  background-image: url(../images/baked-curry.jpeg);
+}
+
+.curry-croquette-img {
+  background-image: url(../images/croque.jpeg);
+}
+
+.curry-bread-img {
+  background-image: url(../images/curry-bread.jpeg);
+}
+.fukujinzuke-img {
+  background-image: url(../images/fukujinzuke.jpg);
+}
+.rakkyo-img {
+  background-image: url(../images/rakkyo.jpg);
+}
