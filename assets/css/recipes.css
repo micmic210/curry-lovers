@@ -18,6 +18,14 @@ h2 {
   text-align: center;
 }
 
+#accompaniments h4 {
+  text-align: center;
+}
+
+#additional-dishes h2 {
+  color: #3a3a3a;
+  margin-top: 10px;
+}
 /* Recipe Card Styles */
 .recipe-card {
   background-color: #f9f9f9;
