@@ -23,13 +23,13 @@ h2 {
   background-color: #f9f9f9;
   border-radius: 5px;
   padding: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .recipe-card ul, .recipe-card ol {
   padding-left: 20px;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 .recipe-card li {

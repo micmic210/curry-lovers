@@ -19,7 +19,7 @@ body {
 /* Main content adjustments */
 main {
   flex: 1;
-  padding-bottom: 110px; 
+  padding-bottom: 120px; 
 }
 
 /* Headings styles */
@@ -95,6 +95,7 @@ nav {
 footer {
   background-color: #3a3a3a;
   padding: 10px 1rem;
+  margin-top: 80px;
   color: #fff;
   position: fixed; 
   bottom: 0;
