@@ -50,7 +50,7 @@
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  font-family: inherit; 
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
 }
 
