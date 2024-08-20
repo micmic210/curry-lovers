@@ -16,6 +16,22 @@ body {
   color: #696969;
   font-family: 'Roboto', sans-serif;
 }
+/* Container settings */
+.container {
+  width: 95%;
+  max-width: 1120px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Flexbox utility class */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 /* Main content adjustments */
 main {
   flex: 1 0 auto;
