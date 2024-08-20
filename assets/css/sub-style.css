@@ -1,11 +1,10 @@
 /* Styling for thank-you.html and 404.html */
 
-#thank-you {
+#thank-you, #not-found {
   text-align: center;
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-image: url(../images/curry-rice-main.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,7 +14,13 @@
   color: #fafafa;
   flex-direction: column; 
 }
+#thank-you {
+  background-image: url(../images/curry-rice-main.jpeg);
+}
 
+#not-found {
+  background-image: url(../images/wallpaper.jpeg);
+}
 .container {
   background: rgba(215, 212, 212, 0.7);
   padding: 30px;
@@ -50,11 +55,14 @@ p {
   font-size: 1rem; 
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
-
 }
 
 .back-home:hover {
   background-color: #696969;
+}
+
+footer {
+  margin-top: -40px;
 }
 
 /* Additional mobile-specific styles */
