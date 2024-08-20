@@ -1,5 +1,5 @@
 /*  */
-.main-content {
+#main-content {
   background-image: url(../images/members.jpeg);
   min-height: 100vh; 
   background-position: center;
@@ -11,25 +11,21 @@
   margin: 0; 
   padding: 20px;                                      
 }
-.form-container {
-  background: rgba(0, 0, 0, 0.95); 
+#form-container {
+  background: rgba(60, 60, 60, 0.7);
   border-radius: 8px;
   padding: 15px;
   width: 100%; 
   max-width: 300px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
-  border: 2px solid rgba(255, 255, 255, 0.4);
-  font-family: 'Roboto', sans-serif; 
   color: #fafafa; 
   box-sizing: border-box;
+  position: relative;
 }
 
-.form-container h2 {
+#form-container h2 {
   text-align: center;
   margin-bottom: 15px;
-  color: #d77921; 
-  font-family: 'Poppins', sans-serif; 
-  text-transform: uppercase; 
 }
 
 .input-field {
@@ -61,6 +57,11 @@
 .submit-button:hover {
   background-color: #696969;
 }
+
+footer {
+  margin-top: -40px;
+}
+
 /* Media Queries for Mobile Responsiveness */
 @media screen and (max-width: 480px) {
   .form-container {
