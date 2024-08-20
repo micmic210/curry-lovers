@@ -1,6 +1,6 @@
 /* Recipe Page Styles */
 
-/* Main content*/
+/* Main content */
 main {
   padding-top: 60px;
   padding-bottom: 20px;
@@ -28,20 +28,22 @@ h2 {
 }
 
 /* Recipe Card Styles */
-.basic-card, .recipe-card, .side-card {
+.basic-card, .recipe-card {
   background-color: #f9f9f9;
   border-radius: 5px;
   padding: 15px;
   margin-bottom: 40px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
+.side-card {
+  margin-bottom: 40px;
+}
 .basic-card ul, .basic-card ol, .recipe-card ul, .recipe-card ol {
   padding-left: 20px;
   margin-bottom: 20px;
 }
 
-.basice-card li, .recipe-card li {
+.basic-card li, .recipe-card li {
   margin-bottom: 10px;
 }
 
@@ -59,6 +61,7 @@ h2 {
   border-radius: 5px;
   margin-bottom: 15px;
 }
+
 .fukujinzuke-img,
 .rakkyo-img {
   background-position: center;
@@ -67,21 +70,24 @@ h2 {
   height: 100px;
   border-radius: 50%;
 }
+
 .side-card {
   display: flex;
-  justify-content: center; 
+  justify-content: space-around; 
   align-items: center; 
-  gap: 20px; 
+  gap: 5px; 
 }
 
 .column-2 {
   width: 96%;
   flex-basis: 96%;
 }
+
 .column-3 {
-  flex: 1; 
+  width: 100px;
+  height: 100px;
   display: flex;
-  justify-content: center; 
+  /* justify-content: space-around;  */
   align-items: center; 
 }
 
@@ -109,10 +115,80 @@ h2 {
 .curry-bread-img {
   background-image: url(../images/curry-bread.jpeg);
 }
+
 .fukujinzuke-img {
   background-image: url(../images/fukujinzuke.jpg);
 }
+
 .rakkyo-img {
   background-image: url(../images/rakkyo.jpg);
+}
+
+/* Tablet: 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  main {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    text-align: center;
+  }
+  .basic-card, .recipe-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .basic-card {
+    align-items: center; 
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  .recipe-card-img, .side-card-img {
+    width: 40%;
+    margin-right: 20px;
+    height: auto;
+  }
+
+  .recipe-card .text-content, .side-card .text-content {
+    width: 55%;
+  }
+
+  .curry-set-img,.curry-pod-img {
+    margin-bottom: 25px; 
+}
+.fukujinzuke-img,
+.rakkyo-img {
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.curry-udon-img,
+.baked-curry-img,
+.curry-croquette-img,
+.curry-bread-img {
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
 }
 
