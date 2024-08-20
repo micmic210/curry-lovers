@@ -1,0 +1,69 @@
+/* Styling for thank-you.html and 404.html */
+
+#thank-you {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url(../images/curry-rice-main.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fafafa;
+  flex-direction: column; 
+}
+
+.container {
+  background: rgba(215, 212, 212, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px; 
+  box-sizing: border-box;
+  text-align: center; 
+  position: relative;
+}
+
+h1 {
+  font-size: 2rem; 
+  margin: 0.5em 0;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 0.9rem; 
+  margin: 0.5em 0;
+}
+
+.back-home {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #d77921;
+  color: #faf0e6;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem; 
+}
+
+.back-home:hover {
+  background-color: #696969;
+}
+
+/* Additional mobile-specific styles */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  
+  p {
+    font-size: 0.85rem;
+  }
+
+  .back-home {
+    font-size: 0.9rem;
+  }
+}
