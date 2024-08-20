@@ -24,10 +24,11 @@ h2 {
 
 #additional-dishes h2 {
   color: #3a3a3a;
-  margin-top: 10px;
+  margin-bottom: 30px;
 }
+
 /* Recipe Card Styles */
-.basic-card, .recipe-card {
+.basic-card, .recipe-card, .side-card {
   background-color: #f9f9f9;
   border-radius: 5px;
   padding: 15px;
@@ -115,52 +116,3 @@ h2 {
   background-image: url(../images/rakkyo.jpg);
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
-  main {
-    padding-top: 70px;
-    padding-bottom: 25px;
-    margin: 0 20px;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  .recipe-card {
-    padding: 20px;
-    margin-bottom: 50px;
-  }
-
-  .recipe-card ul, 
-  .recipe-card ol {
-    padding-left: 25px;
-    margin-bottom: 25px;
-  }
-
-  .curry-set-img,
-  .curry-pod-img,
-  .curry-udon-img,
-  .baked-curry-img,
-  .curry-croquette-img,
-  .curry-bread-img {
-    height: 250px;
-  }
-
-  .fukujinzuke-img,
-  .rakkyo-img {
-    width: 120px;
-    height: 120px;
-  }
-
-  .side-card {
-    gap: 30px;
-  }
-
-  .column-3 {
-    gap: 30px;
-  }
-}
