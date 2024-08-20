@@ -27,7 +27,7 @@ h2 {
   margin-top: 10px;
 }
 /* Recipe Card Styles */
-.recipe-card {
+.basic-card.recipe-card {
   background-color: #f9f9f9;
   border-radius: 5px;
   padding: 15px;
@@ -35,12 +35,12 @@ h2 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.recipe-card ul, .recipe-card ol {
+.basic-card ul, .basic-card ol, .recipe-card ul, .recipe-card ol {
   padding-left: 20px;
   margin-bottom: 20px;
 }
 
-.recipe-card li {
+.basice-card li, .recipe-card li {
   margin-bottom: 10px;
 }
 
@@ -73,6 +73,10 @@ h2 {
   gap: 20px; 
 }
 
+.column-2 {
+  width: 96%;
+  flex-basis: 96%;
+}
 .column-3 {
   flex: 1; 
   display: flex;
