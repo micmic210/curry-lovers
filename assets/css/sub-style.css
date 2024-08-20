@@ -36,6 +36,7 @@ p {
   line-height: 1.5;
   font-size: 0.9rem; 
   margin: 0.5em 0;
+  color: #3a3a3a;
 }
 
 .back-home {
@@ -47,6 +48,9 @@ p {
   text-decoration: none;
   border-radius: 5px;
   font-size: 1rem; 
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 .back-home:hover {
