@@ -1,6 +1,6 @@
 /* General section styles for history page */
 main {
-  padding-top: 70px;
+  padding-top: 15px;
   padding-left: 1rem;
   padding-right: 1rem;
   background-color: #f9f9f9;
@@ -27,7 +27,7 @@ section {
   height: 200px;
   background-size: cover;
   background-position: center;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.3em;
 }
 
 /* Timeline container */
