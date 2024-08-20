@@ -213,14 +213,14 @@ h2 {
 /* For screens 1025px and larger */
 @media (min-width: 1025px) {
   main {
-    padding-top: 100px; /* 画面に合わせて余白を調整 */
+    padding-top: 100px; 
     padding-bottom: 40px;
     margin: 0 auto;
-    width: 80%; /* コンテンツを中央に配置 */
+    width: 80%; 
   }
 
   h1 {
-    font-size: 2.4rem; /* フォントサイズを調整 */
+    font-size: 2.4rem; 
   }
 
   h2 {
@@ -243,7 +243,7 @@ h2 {
 
   .recipe-card-img,
   .side-card-img {
-    width: 45%; /* イメージの幅を調整 */
+    width: 45%; 
     height: auto;
     margin-right: 20px;
   }
