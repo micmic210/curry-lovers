@@ -210,3 +210,74 @@ h2 {
     margin-bottom: 15px;
   }
 }
+/* For screens 1025px and larger */
+@media (min-width: 1025px) {
+  main {
+    padding-top: 100px; /* 画面に合わせて余白を調整 */
+    padding-bottom: 40px;
+    margin: 0 auto;
+    width: 80%; /* コンテンツを中央に配置 */
+  }
+
+  h1 {
+    font-size: 2.4rem; /* フォントサイズを調整 */
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+
+  .basic-card,
+  .recipe-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .recipe-card-img,
+  .side-card-img {
+    width: 45%; /* イメージの幅を調整 */
+    height: auto;
+    margin-right: 20px;
+  }
+
+  .recipe-card .text-content,
+  .side-card .text-content {
+    width: 50%;
+  }
+
+  .column-3 {
+    width: 150px; 
+    height: 150px;
+  }
+
+  .curry-set-img,
+  .curry-pod-img,
+  .curry-udon-img,
+  .baked-curry-img,
+  .curry-croquette-img,
+  .curry-bread-img {
+    background-position: center;
+    background-size: cover; 
+    width: 100%; 
+    height: 250px; 
+    border-radius: 5px;
+    margin-bottom: 25px; 
+  }
+
+  .fukujinzuke-img,
+  .rakkyo-img {
+    background-position: center;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+}
