@@ -52,13 +52,13 @@
             <h1>Recipes</h1>
         </div>
         <!-- Basic Curry -->
-        <section id="basic-curry">
+        <section class="recipes">
             <h2 id="basic-title">Basic Curry Rice</h2>
-            <div class="basic-card">
+            <div class="ingredients container flex">
                 <div class="column-2 curry-set-img"></div>
-                <div class="column-2 ing-list">
+                <div class="ingredients-list column-2">
                     <h3>Ingredients</h3>
-                    <ul>
+                    <ul id="basic-curry-rice">
                         <li>1 lb (450g) meat (chicken, beef, or pork)</li>
                         <li>2 large onions</li>
                         <li>2 carrots</li>
@@ -69,11 +69,11 @@
                     </ul>
                 </div>
             </div>
-            <div class="basic-card">
-                <div class="column-2 curry-pod-img"></div>
-                <div class="column-2 prep-list">
+            <div class="ingredients container flex"></div>
+            <div class="column-2 curry-pod-img">
+                <div class="prep-list column-2">
                     <h3>Preparations</h3>
-                    <ol>
+                    <ol id="how-to">
                         <li>Prepare Ingredients: Chop onions, carrots, and potatoes into bite-sized pieces.</li>
                         <li>Cook Meat and Vegetables: In a large pot, sauté onions until golden. Add meat and cook until
                             browned. Add carrots and potatoes.</li>
@@ -96,17 +96,18 @@
             </div>
         </section>
 
-        <!-- Additional Dishes Featuring Curry -->
-        <div id="additional-dishes">
-            <h2>Additional Dishes Featuring Curry</h2>
-            </div>
-            <!-- Curry Udon -->
+        <!-- Additional Recipe Sections -->
+        <div>
+            <h2 id="h2-title">Additional Dishes Featuring Curry</h2>
+        </div>
+        <!-- Curry Udon -->
+        <div id="recipe1">
             <div class="curry-udon">
-                <h3>Curry Udon</h3>
+                <h3 class="h3-title">Curry Udon</h3>
                 <div class="column-2 curry-udon-img"></div>
-                <div class="recipe-card">
+                <div class="recipe-card flex">
                     <div class="column-2 ingredients">
-                        <h4>Ingredients</h4>
+                        <h4 class="h4-title">Ingredients</h4>
                         <ul>
                             <li>2 packs of udon noodles</li>
                             <li>1/2 onion, thinly sliced</li>
@@ -119,8 +120,8 @@
                         </ul>
                     </div>
                     <div class="column-2 preparations">
-                        <h4>Preparations</h4>
-                        <ol>
+                        <h4 class="h4-title">Preparations</h4>
+                        <ol class="prep">
                             <li>Cook the udon noodles according to the package instructions. Drain and set aside.</li>
                             <li>In a large pot, heat vegetable oil over medium heat. Sauté the onions and meat
                                 until tender.</li>
@@ -134,14 +135,15 @@
                     </div>
                 </div>
             </div>
-            <!-- Baked Curry -->
-            <div class="baked-curry">
-                <h3>Baked Curry</h3>
-                <div class="column-2 baked-curry-img"></div>
-                <div class="recipe-card">
-                    <div class="column-2 ingredients">
-                    <h4>Ingredients</h4>
-                    <ul>
+        </div>
+        <!-- Baked Curry -->
+        <div id="recipe2">
+            <h3 class="h3-title">Baked Curry</h3>
+            <div class="column-2 baked-curry-img"></div>
+            <div class="recipe-card flex">
+                <div class="column-2 ingredients">
+                    <h4 class="h4-title">Ingredients</h4>
+                    <ul class="ing">
                         <li>2 cups cooked rice</li>
                         <li>1 cup Japanese curry (store-bought or homemade)</li>
                         <li>1/2 cup shredded cheese (mozzarella or cheddar)</li>
@@ -151,31 +153,34 @@
                         <li>Chopped parsley for garnish</li>
                     </ul>
                 </div>
-                    <div class="column-2 preparations">
-                    <h4>Preparations</h4>
-                    <ol>
+                <div class="column-2 preparations">
+                    <h4 class="h4-title">Preparations</h4>
+                    <ol class="prep">
                         <li>Preheat your oven to 200°C (392°F).</li>
                         <li>Spread the cooked rice evenly in a baking dish.</li>
                         <li>Pour the Japanese curry over the rice, spreading it out evenly.</li>
-                        <li>Sprinkle the shredded cheese over the curry. Mix panko breadcrumbs with melted butter and
+                        <li>Sprinkle the shredded cheese over the curry. Mix panko breadcrumbs with melted butter
+                            and
                             sprinkle over the cheese.</li>
-                        <li>Place the dish in the oven and bake for about 10-15 minutes or until the top is golden brown
+                        <li>Place the dish in the oven and bake for about 10-15 minutes or until the top is golden
+                            brown
                             and
                             crispy.</li>
-                        <li>Optional: Crack an egg on top of the dish before baking for an extra layer of richness.</li>
+                        <li>Optional: Crack an egg on top of the dish before baking for an extra layer of richness.
+                        </li>
                         <li>Remove from the oven, garnish with chopped parsley, and serve hot.</li>
                     </ol>
                 </div>
-                </div>
             </div>
-            <!-- Croquette -->
-            <div class="curry-croquette">
-                <h3>Curry Croquette</h3>
-                <div class="column-2 curry-croquette-img"></div>
-                <div class="recipe-card">
-                    <div class="column-2 ingredients">
-                    <h4>Ingredients</h4>
-                    <ul>
+        </div>
+        <!-- Croquette -->
+        <div id="recipe3">
+            <h3 class="h3-title">Curry Croquette</h3>
+            <div class="column-2 curry-croquette-img"></div>
+            <div class="recipe-card flex">
+                <div class="column-2 ingredients">
+                    <h4 class="h4-title">Ingredients</h4>
+                    <ul class="ing">
                         <li>2 medium potatoes, peeled and boiled</li>
                         <li>1/2 cup Japanese curry (store-bought or homemade)</li>
                         <li>1/2 onion, finely chopped</li>
@@ -188,9 +193,9 @@
                         <li>Oil for frying</li>
                     </ul>
                 </div>
-                    <div class="column-2 preparations">
-                    <h4>Preparations</h4>
-                    <ol>
+                <div class="column-2 preparations">
+                    <h4 class="h4-title">Preparations</h4>
+                    <ol class="prep">
                         <li>Sauté the onions, carrots, and ground meat until the meat is cooked through. Season with
                             salt
                             and pepper.</li>
@@ -199,24 +204,26 @@
                             combine
                             well.</li>
                         <li>Form the mixture into small, oval-shaped patties.</li>
-                        <li>Dredge each patty in flour, dip into beaten egg, and then coat with panko breadcrumbs.</li>
-                        <li>Heat oil in a deep fryer or a large pot. Fry the croquettes until golden brown, about 3-4
+                        <li>Dredge each patty in flour, dip into beaten egg, and then coat with panko breadcrumbs.
+                        </li>
+                        <li>Heat oil in a deep fryer or a large pot. Fry the croquettes until golden brown, about
+                            3-4
                             minutes per side. Remove and drain on paper towels.</li>
                         <li>Serve hot with your favorite dipping sauce or Japanese Worcestershire sauce (tonkatsu
                             sauce).
                         </li>
                     </ol>
                 </div>
-                </div>
             </div>
-            <!-- Curry Bread -->
-            <div class="curry-bread">
-                <h3>Curry Bread</h3>
-                <div class="column-2 curry-bread-img"></div>
-                <div class="recipe-card">
-                    <div class="column-2 ingredients">
-                    <h4>Ingredients</h4>
-                    <ul>
+        </div>
+        <!-- Curry Bread -->
+        <div id="recipe4">
+            <h3 class="h3-title">Curry Bread</h3>
+            <div class="column-2 curry-bread-img"></div>
+            <div class="recipe-card flex">
+                <div class="column-2 ingredients">
+                    <h4 class="h4-title">Ingredients</h4>
+                    <ul class="ing">
                         <li>2 cups bread flour</li>
                         <li>1 tsp yeast</li>
                         <li>1 tbsp sugar</li>
@@ -229,28 +236,31 @@
                         <li>Oil for frying</li>
                     </ul>
                 </div>
-                    <div class="column-2 preparations">
-                    <h4>Preparations</h4>
-                    <ol>
-                        <li>In a large bowl, mix the bread flour, yeast, sugar, and salt. Add warm milk and knead until
-                            smooth. Add softened butter and continue kneading until the dough is elastic. Cover and let
+                <div class="column-2 preparations">
+                    <h4 class="h4-title">Preparations</h4>
+                    <ol class="prep">
+                        <li>In a large bowl, mix the bread flour, yeast, sugar, and salt. Add warm milk and knead
+                            until
+                            smooth. Add softened butter and continue kneading until the dough is elastic. Cover and
+                            let
                             it
                             rise until doubled in size (about 1 hour).</li>
-                        <li>Make sure the curry filling is thick. If it’s too watery, cook it down to reduce the liquid.
+                        <li>Make sure the curry filling is thick. If it’s too watery, cook it down to reduce the
+                            liquid.
                         </li>
                         <li>Divide the dough into 8 equal pieces. Flatten each piece into a small circle and place a
-                            spoonful of curry filling in the center. Pinch the edges to seal and shape into a ball.</li>
+                            spoonful of curry filling in the center. Pinch the edges to seal and shape into a ball.
+                        </li>
                         <li>Dip each ball into beaten egg and then coat with panko breadcrumbs.</li>
-                        <li>Heat oil in a deep fryer or large pot. Fry the curry bread until golden brown on all sides,
+                        <li>Heat oil in a deep fryer or large pot. Fry the curry bread until golden brown on all
+                            sides,
                             about 3-4 minutes per side. Remove and drain on paper towels.</li>
                         <li>Serve hot or warm. They can also be reheated in the oven.</li>
                     </ol>
                 </div>
-                </div>
             </div>
-        
+        </div>
     </main>
-
     <!-- Footter -->
     <footer>
         <ul id="social-networks">
