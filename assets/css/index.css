@@ -42,29 +42,38 @@
   font-size: 20px;
   font-weight: 500;
 }
+
 /* Global setting for sections */
 h2 {
   margin-bottom: 20px;
 }
-#introduction, #about, #mission, #activities {
-  padding: 30px 10px;
-  margin-bottom: 20px;
+
+.intro,
+.about,
+.mission,
+.activity {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  flex-wrap: wrap;
+  text-align: left;
 }
-.column-left, .column-right {
+
+.column-left,
+.column-right {
   width: 100%;
   padding: 10px;
 }
+
 .text {
   line-height: 1.6;
   text-align: left;
 }
+
 /* Global setting for section images */
-.introduction-img, .about-img, .mission-img, .activities-img {
+.introduction-img,
+.about-img,
+.mission-img,
+.activities-img {
   background-position: center;
   background-size: cover;
   height: auto;
@@ -72,19 +81,24 @@ h2 {
   border-radius: 10px;
   overflow: hidden;
 }
+
 /* Section images */
 .introduction-img {
   background-image: url(../images/curry-rice-main.jpeg);
 }
+
 .about-img {
   background-image: url(../images/curry-pod.jpeg);
 }
+
 .mission-img {
   background-image: url(../images/mission.jpeg);
 }
+
 .activities-img {
   background-image: url(../images/activity.jpg);
 }
+
 /* Lists */
 #mission-list,
 #activity-list {
@@ -94,10 +108,10 @@ h2 {
 
 /* Gallery */
 #gallery {
-  display: grid; 
+  display: grid;
   grid-template-columns: 1fr 1fr;
   /* grid-template-rows: auto; */
-  gap: 10px; 
+  gap: 10px;
   padding: 0 10px;
 }
 
@@ -169,3 +183,73 @@ h2 {
   background-image: url(../images/curry-bread.jpeg);
 }
 
+/* Responsive Styles for Screens Larger Than 790px */
+@media (min-width: 790px) {
+  #hero {
+    height: 500px;
+    margin-bottom: 20px;
+  }
+
+  #hero::before {
+    height: 500px;
+  }
+
+  #cover-text h1 {
+    font-size: 48px;
+  }
+
+  #cover-text p {
+    font-size: 24px;
+  }
+
+
+
+  .intro,
+  .about,
+  .mission,
+  .activity {
+    flex-direction: row;
+    margin: 5px 0;
+  }
+
+  .column-left,
+  .column-right {
+    width: 50%;
+    margin-right: 20px;
+    padding: 20px;
+  }
+
+  #activity-list h3 {
+    font-size: 1rem;
+  }
+
+  #gallery {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 20px;
+  }
+
+  .column-a,
+  .column-b,
+  .column-c,
+  .column-d {
+    height: 200px;
+  }
+}
+@media (min-width: 1048px) {
+  .box {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  #gallery {
+    padding: 0 40px; 
+  }
+
+  .column-a,
+  .column-b,
+  .column-c,
+  .column-d {
+    height: 250px; 
+  }
+}
