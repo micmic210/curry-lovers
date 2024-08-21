@@ -43,6 +43,9 @@
   font-weight: 500;
 }
 /* Global setting for sections */
+h2 {
+  margin-bottom: 20px;
+}
 #introduction, #about, #mission, #activities {
   padding: 30px 10px;
   margin-bottom: 20px;
