@@ -23,12 +23,12 @@
 }
 .container {
   background: rgba(215, 212, 212, 0.7);
-  padding: 30px;
+  padding: 20px;
   border-radius: 10px;
-  width: 100%;
-  max-width: 400px; 
+  width: 90%;
+  max-width: 300px; 
   box-sizing: border-box;
-  text-align: center; 
+  justify-content: center; 
   position: relative;
 }
 
@@ -67,15 +67,52 @@ footer {
 
 /* Additional mobile-specific styles */
 @media (max-width: 480px) {
+  .container {
+    width: 90%; 
+    padding: 15px; 
+  }
   h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   
   p {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
   }
 
   .back-home {
     font-size: 0.9rem;
+    padding: 8px 16px;
   }
+}
+
+@media (min-width: 1024px) {
+  #thank-you, #not-found {
+    justify-content: center; 
+  }
+
+  .container {
+    width: 60%; 
+    max-width: 800px; 
+    padding: 40px; 
+  }
+
+  h1, p, .back-home {
+    max-width: 100%; 
+  }
+
+  h1 {
+    font-size: 2rem; 
+    margin-bottom: 20px; 
+  }
+
+  p {
+    font-size: 1rem; 
+    margin-bottom: 30px; 
+    text-align: center; 
+  }
+
+  .back-home {
+    font-size: 1rem; 
+    padding: 12px 24px; 
+}
 }
