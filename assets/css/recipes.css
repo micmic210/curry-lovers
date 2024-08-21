@@ -38,16 +38,22 @@ main {
 .h4-title {
   color: #3a3a3a;
 }
-
+.side-title {
+  text-align: center;
+}
 .column-2 {
   width: 100%;
   flex-basis: 100%;
 }
 
+.side {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+}
 .column-3 {
-  width: 100%;
-  flex-basis: 100%;
-  /* text-align: center; */
+  text-align: center;
 }
 
 #basic-curry-rice li,
@@ -58,6 +64,12 @@ margin-bottom: 10px;
 padding-left: 10px;
 padding-right: 10px;
 } 
+
+span {
+  color: #3a3a3a;
+  display: block;
+  margin-top: 10px;
+}
 
 .ing,
 .prep {
@@ -125,11 +137,9 @@ padding-right: 10px;
 .rakkyo-img {
   background-position: center;
   background-size: cover;
-  width: 80%;
-  height: auto;
-  margin: 10px auto;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  display: block;
 }
 
 .fukujinzuke-img {
