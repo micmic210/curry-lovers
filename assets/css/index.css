@@ -3,10 +3,10 @@
   background-image: url(../images/curry-variation.jpg);
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 350px;
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   overflow: hidden;
   position: relative;
 }
@@ -15,7 +15,7 @@
 #hero::before {
   content: '';
   width: 100%;
-  height: 300px;
+  height: 350px;
   background-color: #000000;
   position: absolute;
   top: 0;
@@ -44,21 +44,30 @@
 }
 /* Global setting for sections */
 #introduction, #about, #mission, #activities {
-  padding: 10px;
-  margin-bottom: 30px;
+  padding: 30px 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
 }
-.column-left {
-  margin-bottom: 30px;
+.column-left, .column-right {
+  width: 100%;
+  padding: 10px;
 }
 .text {
-  line-height: 2;
+  line-height: 1.6;
+  text-align: left;
 }
 /* Global setting for section images */
 .introduction-img, .about-img, .mission-img, .activities-img {
   background-position: center;
   background-size: cover;
-  height: 157px;
+  height: auto;
+  aspect-ratio: 16/9;
   border-radius: 10px;
+  overflow: hidden;
 }
 /* Section images */
 .introduction-img {
