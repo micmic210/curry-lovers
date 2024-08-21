@@ -202,8 +202,6 @@ h2 {
     font-size: 24px;
   }
 
-
-
   .intro,
   .about,
   .mission,
@@ -235,21 +233,85 @@ h2 {
     height: 200px;
   }
 }
+
 @media (min-width: 1048px) {
   .box {
     margin-top: 20px;
     margin-bottom: 30px;
   }
 }
+
 @media (min-width: 1200px) {
   #gallery {
-    padding: 0 40px; 
+    padding: 0 40px;
   }
 
   .column-a,
   .column-b,
   .column-c,
   .column-d {
-    height: 250px; 
+    height: 250px;
+  }
+}
+
+@media (min-width: 1600px) {
+
+  /* Hero Section */
+  #hero {
+    height: 600px;
+    margin-bottom: 30px;
+  }
+
+  #hero::before {
+    height: 600px;
+  }
+
+  #cover-text h1 {
+    font-size: 56px;
+    margin-bottom: 24px;
+  }
+
+  #cover-text p {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  /* Section Headings */
+  h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  /* Text Content in Sections */
+  .text {
+    font-size: 22px;
+    line-height: 1.8;
+  }
+
+  #mission-list,
+  #activity-list {
+    font-size: 22px;
+    line-height: 1.8;
+  }
+
+  /* Section Images */
+  .introduction-img,
+  .about-img,
+  .mission-img,
+  .activities-img {
+    height: 400px;
+  }
+
+  /* Gallery Section */
+  #gallery {
+    padding: 0 40px;
+    gap: 20px;
+  }
+
+  .column-a,
+  .column-b,
+  .column-c,
+  .column-d {
+    height: 300px;
   }
 }
