@@ -1,4 +1,5 @@
-/*  */
+/* Membership Page Specific Styles */
+
 #main-content {
   background-image: url(../images/members.jpeg);
   min-height: 100vh; 
@@ -70,5 +71,41 @@ footer {
 
   .submit-button {
     padding: 10px;
+  }
+}
+
+/* Media Queries for Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #form-container {
+    max-width: 400px;
+    padding: 20px;
+  }
+
+  .submit-button {
+    padding: 14px;
+  }
+}
+
+/* Media Queries for Laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #form-container {
+    max-width: 500px;
+    padding: 25px;
+  }
+
+  .submit-button {
+    padding: 16px;
+  }
+}
+
+/* Media Queries for Desktops */
+@media screen and (min-width: 1025px) {
+  #form-container {
+    max-width: 600px;
+    padding: 30px;
+  }
+
+  .submit-button {
+    padding: 18px;
   }
 }
