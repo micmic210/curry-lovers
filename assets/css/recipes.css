@@ -6,27 +6,19 @@ main {
   padding-right: 1rem;
 }
 
-/* Base (mobile-first) styles */
 .h1-title {
   margin-bottom: 1rem;
   text-align: center;
   font-size: 1.8rem;
 }
 
-#basic-title {
-  text-align: center;
-  font-size: 1.5rem;
-  margin-bottom: 0.75rem;
-  margin-left:0.5rem;
-}
-
 .h3-basic-title {
-  color: #3a3a3a;
+  color: #505050;
 }
 
 #h2-title {
   text-align: center;
-  color: #3a3a3a;
+  color: #505050;
   font-size: 1.5rem;
   margin-top: 0.85rem;
   margin-bottom: 1.0rem;
@@ -36,7 +28,7 @@ main {
   text-align: center;
 }
 .h4-title {
-  color: #3a3a3a;
+  color: #505050;
 }
 .side-title {
   text-align: center;
@@ -66,7 +58,7 @@ padding-right: 10px;
 } 
 
 span {
-  color: #3a3a3a;
+  color: #505050;
   display: block;
   margin-top: 10px;
 }
