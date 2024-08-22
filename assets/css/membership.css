@@ -1,5 +1,6 @@
 /* Membership Page Specific Styles */
 
+/* Styling for the main content area */
 #main-content {
   background-image: url(../images/members.jpeg);
   min-height: 100vh; 
@@ -12,6 +13,7 @@
   margin: 0; 
   padding: 20px;                                      
 }
+/* Styling for the form container */
 #form-container {
   background: rgba(60, 60, 60, 0.7);
   border-radius: 8px;
@@ -23,12 +25,12 @@
   box-sizing: border-box;
   position: relative;
 }
-
+/* Styling for the form container heading */
 #form-container h2 {
   text-align: center;
   margin-bottom: 15px;
 }
-
+/* Styling for input fields within the form */
 .input-field {
   width: 100%;
   padding: 8px;
@@ -40,7 +42,7 @@
   font-family: inherit; 
   color: #696969; 
 }
-
+/* Styling for the submit button */
 .submit-button {
   width: 100%;
   background-color: #d77921;
@@ -54,16 +56,18 @@
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
 }
-
+/* Hover effect for the submit button */
 .submit-button:hover {
   background-color: #696969;
 }
-
+/* Styling for the footer */
 footer {
   margin-top: -40px;
 }
 
 /* Media Queries for Mobile Responsiveness */
+
+/* Styles for screens with a max-width of 480px (mobile devices) */
 @media screen and (max-width: 480px) {
   .form-container {
     padding: 10px;
@@ -75,6 +79,7 @@ footer {
 }
 
 /* Media Queries for Tablets */
+/* Styles for screens with a width between 481px and 768px (tablets) */
 @media screen and (min-width: 481px) and (max-width: 768px) {
   #form-container {
     max-width: 400px;
@@ -87,6 +92,7 @@ footer {
 }
 
 /* Media Queries for Laptops */
+/* Styles for screens with a width between 769px and 1024px (laptops) */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   #form-container {
     max-width: 500px;
@@ -99,6 +105,7 @@ footer {
 }
 
 /* Media Queries for Desktops */
+/* Styles for screens with a width of 1025px and above (desktops) */
 @media screen and (min-width: 1025px) {
   #form-container {
     max-width: 600px;
