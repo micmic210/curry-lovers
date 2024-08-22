@@ -3,19 +3,20 @@
   background-image: url(../images/curry-variation.jpg);
   background-position: center;
   background-size: cover;
-  height: 350px;
+  height: 300px;
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  justify-content: center;
+  margin: 20px 16px 10px 16px;
   overflow: hidden;
   position: relative;
+  border-radius: 10px;
 }
-
 /* Hero section overlay */
 #hero::before {
   content: '';
   width: 100%;
-  height: 350px;
+  height: 100%;
   background-color: #000000;
   position: absolute;
   top: 0;
@@ -23,6 +24,16 @@
   opacity: 0.6;
   z-index: 1;
 }
+
+/* Hero container */
+.hero-container {
+  width: 100%; 
+  padding: 0 16px; 
+  z-index: 2; 
+  position: relative;
+  box-sizing: border-box;
+}
+
 
 /* Hero section text */
 #cover-text {
@@ -183,8 +194,118 @@ h2 {
   background-image: url(../images/curry-bread.jpeg);
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  #hero {
+    height: 450px;
+    margin: 40px 20px 15px 20px; 
+  }
+  #hero::before {
+    height: 450px;
+  }
+
+  #cover-text h1 {
+    font-size: 36px; 
+  }
+
+  #cover-text p {
+    font-size: 22px;
+  }
+
+  .intro,
+  .about,
+  .mission,
+  .activity {
+    flex-direction: row;
+    margin: 10px 0;
+  }
+
+  .column-left,
+  .column-right {
+    width: 48%; 
+    margin-right: 15px;
+    padding: 15px;
+  }
+
+  .text {
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .introduction-img,
+  .about-img,
+  .mission-img,
+  .activities-img {
+    height: 300px;
+  }
+
+  #gallery {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 15px;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .column-a,
+  .column-b,
+  .column-c,
+  .column-d {
+    height: 200px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  #hero {
+    height: 500px;
+    margin-bottom: 25px;
+  }
+
+  #hero::before {
+    height: 500px;
+  }
+
+  #cover-text h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+  }
+
+  #cover-text p {
+    font-size: 24px;
+  }
+
+  .column-left,
+  .column-right {
+    width: 50%; 
+    margin-right: 20px;
+    padding: 20px;
+  }
+
+  .text {
+    font-size: 20px;
+    line-height: 1.7;
+  }
+
+  .introduction-img,
+  .about-img,
+  .mission-img,
+  .activities-img {
+    height: 350px;
+  }
+
+  #gallery {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 20px;
+    gap: 15px;
+  }
+
+  .column-a,
+  .column-b,
+  .column-c,
+  .column-d {
+    height: 220px;
+  }
+}
+
 /* Responsive Styles for Screens Larger Than 790px */
-@media (min-width: 790px) {
+/* @media (min-width: 790px) {
   #hero {
     height: 500px;
     margin-bottom: 20px;
@@ -232,8 +353,8 @@ h2 {
   .column-d {
     height: 200px;
   }
-}
-
+} */
+/* 
 @media (min-width: 1048px) {
   .box {
     margin-top: 20px;
@@ -252,12 +373,12 @@ h2 {
   .column-d {
     height: 250px;
   }
-}
-
-@media (min-width: 1600px) {
+} */
+/* 
+@media (min-width: 1600px) { */
 
   /* Hero Section */
-  #hero {
+  /* #hero {
     height: 600px;
     margin-bottom: 30px;
   }
@@ -274,36 +395,36 @@ h2 {
   #cover-text p {
     font-size: 28px;
     font-weight: 600;
-  }
+  } */
 
   /* Section Headings */
-  h2 {
+  /* h2 {
     font-size: 36px;
     margin-bottom: 30px;
-  }
+  } */
 
   /* Text Content in Sections */
-  .text {
+  /* .text {
     font-size: 22px;
     line-height: 1.8;
-  }
+  } */
 
-  #mission-list,
+  /* #mission-list,
   #activity-list {
     font-size: 22px;
     line-height: 1.8;
-  }
+  } */
 
   /* Section Images */
-  .introduction-img,
+  /* .introduction-img,
   .about-img,
   .mission-img,
   .activities-img {
     height: 400px;
-  }
+  } */
 
   /* Gallery Section */
-  #gallery {
+  /* #gallery {
     padding: 0 40px;
     gap: 20px;
   }
@@ -314,4 +435,4 @@ h2 {
   .column-d {
     height: 300px;
   }
-}
+} */
