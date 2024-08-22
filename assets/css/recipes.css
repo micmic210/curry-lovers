@@ -1,12 +1,7 @@
 /* Recipes Page Specific Styles */
-main {
-  /* padding-top: 15px; */
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
 
 .h1-title {
-  /* margin-top: -1rem; */
+  /* margin-top: -0.5rem; */
   margin-bottom: 1rem;
   text-align: center;
   font-size: 1.8rem;
@@ -368,5 +363,84 @@ span {
     width: 182px;
     height: 182px;
     margin-top: 12px;
+  }
+}
+/* Media Query for screens larger than 1441px */
+@media only screen and (min-width: 1441px) {
+
+  .column-2 {
+    width: 45%;
+    flex-basis: 45%;
+  }
+
+  .column-3 {
+    width: 35%;
+    flex-basis: 35%;
+    margin: 0 7.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .basic-card {
+    gap: 25px;
+    margin-bottom: 25px;
+  }
+
+  .side {
+    margin-bottom: 2.5rem;
+    justify-content: center;
+  }
+
+  .recipe-card {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 30px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .recipe-card>.column-2 {
+    flex: 1;
+  }
+
+  .h1-title {
+    margin-top: 4.5rem;
+    margin-bottom: 2rem;
+    font-size: 2.25rem;
+  }
+
+  .h3-basic-title,
+  .h3-title,
+  .h4-title {
+    font-size: 1.625rem;
+  }
+
+  #basic-curry-rice li,
+  #how-to li {
+    line-height: 1.6rem;
+    margin-left: 2.8125rem;
+  }
+
+  #preparations {
+    margin-bottom: 2.8125rem;
+  }
+
+  .curry-set-img,
+  .curry-pod-img,
+  .curry-udon-img,
+  .baked-curry-img,
+  .curry-croquette-img,
+  .curry-bread-img {
+    width: 48%;
+    height: 18.75rem;
+    margin: 1.25rem auto;
+  }
+
+  .fukujinzuke-img,
+  .rakkyo-img {
+    width: 12.5rem;
+    height: 12.5rem;
+    margin-top: 0.9375rem;
   }
 }
