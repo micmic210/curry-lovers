@@ -1,5 +1,6 @@
 /* Styling for thank-you.html and 404.html */
 
+/* Common styling for both #thank-you and #not-found sections */
 #thank-you, #not-found {
   text-align: center;
   margin: 0;
@@ -14,13 +15,15 @@
   color: #fafafa;
   flex-direction: column; 
 }
+/* Specific background image for the thank-you section */
 #thank-you {
   background-image: url(../images/curry-rice-main.jpeg);
 }
-
+/* Specific background image for the not-found section */
 #not-found {
   background-image: url(../images/wallpaper.jpeg);
 }
+/* Styling for container elements */
 .container {
   background: rgba(215, 212, 212, 0.7);
   padding: 20px;
@@ -31,19 +34,19 @@
   justify-content: center; 
   position: relative;
 }
-
+/* Styling for headings */
 h1 {
   font-size: 2rem; 
   margin: 0.5em 0;
 }
-
+/* Styling for paragraph text */
 p {
   line-height: 1.5;
   font-size: 0.9rem; 
   margin: 0.5em 0;
   color: #3a3a3a;
 }
-
+/* Styling for the back-home button */
 .back-home {
   display: inline-block;
   margin-top: 20px;
@@ -56,11 +59,11 @@ p {
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
 }
-
+/* Hover effect for the back-home button */
 .back-home:hover {
   background-color: #696969;
 }
-
+/* Styling for the footer */
 footer {
   margin-top: -40px;
 }
@@ -84,7 +87,7 @@ footer {
     padding: 8px 16px;
   }
 }
-
+/* Additional styles for larger screens */
 @media (min-width: 1024px) {
   #thank-you, #not-found {
     justify-content: center; 
