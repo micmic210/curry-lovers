@@ -181,5 +181,38 @@ h2 {
     font-size: 2.25rem;
   }
 }
+/* Media query for desktops with a width of 1600px */
+@media (min-width: 1600px) {
+  main {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
 
+  #history-intro h1 {
+    font-size: 2.7rem;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+
+  .curry-image-container {
+    height: 400px;
+  }
+
+  .timeline {
+    padding-left: 3rem;
+    margin-left: 3.5rem;
+  }
+
+  .period {
+    font-size: 1.8rem;
+  }
+
+  .text {
+    font-size: 1.3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+}
 
