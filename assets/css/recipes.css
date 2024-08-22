@@ -4,20 +4,21 @@ main {
   background-color: #f9f9f9; 
 }
 
-/* Basic curry */
+/* Basic curry section */
+/* Styling for the main title */
 .h1-title {
   margin-top: 15px;
   margin-bottom: -10px;
   text-align: center;
   font-size: 28.8px;
 }
-
+/* Styling for smaller headings within the basic curry section */
 .h3-basic-title {
   color: #505050;
   font-size: 24px;
   margin-bottom: 12px;
 }
-
+/* Styling for a specific h2 title */
 #h2-title {
   text-align: center;
   color: #505050;
@@ -25,36 +26,36 @@ main {
   margin-top: 16px;
   margin-bottom: 16px;
 }
-
+/* General styling for various titles */
 .h3-title,
 .side-title {
   text-align: center;
   font-size: 24px;
 }
-
+/* Styling for h4 titles */
 .h4-title {
   color: #505050;
   font-size: 20px;
   margin-bottom: 12px;
 }
-
+/* Styling for a full-width column */
 .column-2 {
   width: 100%;
   flex-basis: 100%;
 }
-
+/* Styling for the side content area */
 .side {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   gap: 20px;
 }
-
+/* Styling for a centered column */
 .column-3 {
   text-align: center;
   font-size: 20px;
 }
-
+/* Styling for lists within specific sections */
 #basic-curry-rice li,
 #how-to li {
   line-height: 1.6;
@@ -64,17 +65,18 @@ main {
   padding-right: 10px;
   font-size: 16px; 
 }
-
+/* Styling for span elements */
 span {
   color: #505050;
   display: block;
   margin-top: 10px;
 }
-
+/* Styling for specific elements with IDs */
 #udon, #baked, #croquette, #bread {
   padding-left: 19px;
   padding-right: 19px;
 }
+/* Styling for ingredient and preparation lists */
 .ing,
 .prep {
   line-height: 1.7;
@@ -84,13 +86,13 @@ span {
   padding-right: 19px;
   font-size: 16px; 
 }
-
+/* Styling for sections with IDs */
 #ingredients,
 #preparations {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
+/* Styling for recipe cards */
 .recipe-card {
   width: 100%;
   flex-basis: 100%;
@@ -98,6 +100,7 @@ span {
 }
 
 /* Images on the recipes page */
+/* Styling for images used in the recipes page */
 .curry-set-img,
 .curry-pod-img,
 .curry-udon-img,
@@ -114,6 +117,7 @@ span {
 }
 
 /* Individual images */
+/* Sets specific background images for recipe images */
 .curry-set-img {
   background-image: url(../images/curry-set.jpg);
 }
@@ -137,7 +141,7 @@ span {
 .curry-bread-img {
   background-image: url(../images/curry-bread.jpeg);
 }
-
+/* Styling for side dish images */
 .fukujinzuke-img,
 .rakkyo-img {
   background-position: center;
@@ -147,7 +151,7 @@ span {
   border-radius: 50%;
   margin-top: 10px;
 }
-
+/* Sets specific background images for the round images */
 .fukujinzuke-img {
   background-image: url(../images/fukujinzuke.jpg);
 }
@@ -157,6 +161,7 @@ span {
 }
 
 /* Tablet Styles (min-width: 768px to 1024px) */
+/* Media query for tablet screens */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   #basic-title {
     margin-bottom: -12.8px;
@@ -257,6 +262,7 @@ span {
 }
 
 /* Laptop Styles (min-width: 1025px to 1440px) */
+/* Media query for laptop screens */
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
   .column-2 {
     width: 45%;
@@ -351,6 +357,7 @@ span {
   }
 }
 /* Media Query for screens larger than 1441px */
+/* Media query for large screens (1441px and above) */
 @media only screen and (min-width: 1441px) {
 
   .column-2 {
