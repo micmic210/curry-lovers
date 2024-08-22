@@ -75,7 +75,7 @@ h2 {
 }
 /* Additional styles for present-day section */
 #history-six .timeline {
-  border-left: 3px solid #3a3a3a;
+  border-left: 3px solid #505050;
 }
 
 /* Media query for tablets (min-width: 600px and max-width: 768px) */
@@ -108,6 +108,39 @@ h2 {
 
   h2 {
     font-size: 1.75rem;
+  }
+}
+
+/* Media query for laptops (min-width: 769px and max-width: 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  main {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  #history-intro h1 {
+    font-size: 2.2rem;
+  }
+
+  .curry-image-container {
+    height: 300px;
+  }
+
+  .timeline {
+    padding-left: 2rem;
+    margin-left: 2.5rem;
+  }
+
+  .period {
+    font-size: 1.4rem;
+  }
+
+  .text {
+    font-size: 1.1rem;
+  }
+
+  h2 {
+    font-size: 2rem;
   }
 }
 
