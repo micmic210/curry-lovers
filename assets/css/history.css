@@ -87,6 +87,8 @@ h2 {
 
   #history-intro h1 {
     font-size: 2rem;
+    padding-top: 1rem; 
+    padding-bottom: 1rem; 
   }
 
   .curry-image-container {
@@ -120,6 +122,8 @@ h2 {
 
   #history-intro h1 {
     font-size: 2.2rem;
+    padding-top: 1.2rem; 
+    padding-bottom: 1.2rem; 
   }
 
   .curry-image-container {
@@ -143,6 +147,39 @@ h2 {
     font-size: 2rem;
   }
 }
+/* Media query for desktops (min-width: 1025px) */
+@media (min-width: 1025px) {
+  main {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
 
+  #history-intro h1 {
+    font-size: 2.5rem;
+    padding-top: 1.2rem; 
+    padding-bottom: 1.2rem; 
+  }
+
+  .curry-image-container {
+    height: 350px;
+  }
+
+  .timeline {
+    padding-left: 2.5rem;
+    margin-left: 3rem;
+  }
+
+  .period {
+    font-size: 1.6rem;
+  }
+
+  .text {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+}
 
 
