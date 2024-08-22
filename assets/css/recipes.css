@@ -27,12 +27,15 @@ main {
 .h3-title {
   text-align: center;
 }
+
 .h4-title {
   color: #505050;
 }
+
 .side-title {
   text-align: center;
 }
+
 .column-2 {
   width: 100%;
   flex-basis: 100%;
@@ -44,18 +47,19 @@ main {
   align-items: flex-start;
   gap: 20px;
 }
+
 .column-3 {
   text-align: center;
 }
 
 #basic-curry-rice li,
 #how-to li {
-line-height: 1.5;
-margin-left: 20px;
-margin-bottom: 10px;
-padding-left: 10px;
-padding-right: 10px;
-} 
+  line-height: 1.5;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 span {
   color: #505050;
@@ -72,7 +76,8 @@ span {
   padding-right: 19px;
 
 }
-#ingredients, 
+
+#ingredients,
 #preparations {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -142,7 +147,7 @@ span {
   background-image: url(../images/rakkyo.jpg);
 }
 
-/* Larger screens adjustments */
+/* Media query */
 @media only screen and (min-width: 769px) {
 
   .column-2 {
@@ -166,8 +171,7 @@ span {
     font-size: 32px;
   }
 
-
-  h2#basic-title,
+  .h3-basic-title,
   .h3-title,
   .h4-title {
     font-size: 24px;
@@ -175,7 +179,7 @@ span {
 
   #basic-curry-rice li,
   #how-to li {
-    line-height: 1.7;
+    line-height: 1.6;
     margin-left: 40px;
   }
 
@@ -199,6 +203,80 @@ span {
   .rakkyo-img {
     width: 100%;
     height: 270px;
+    margin-top: 10px;
+  }
+}
+
+/* Tablet Styles (min-width: 768px to 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .column-2 {
+    width: 48%;
+    flex-basis: 48%;
+  }
+
+  .column-3 {
+    width: 40%;
+    flex-basis: 40%;
+    margin: 0 5%;
+  }
+
+  .basic-card {
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .side {
+    margin-bottom: 30px;
+  }
+  .recipe-card {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .recipe-card>.column-2 {
+    flex: 1;
+  }
+
+  .h1-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+
+  .h3-basic-title,
+  .h3-title,
+  .h4-title {
+    font-size: 20px;
+  }
+
+  #basic-curry-rice li,
+  #how-to li {
+    line-height: 1.3;
+    margin-left: 30px;
+  }
+
+  #preparations {
+    margin-bottom: 30px;
+  }
+
+  .curry-set-img,
+  .curry-pod-img,
+  .curry-udon-img,
+  .baked-curry-img,
+  .curry-croquette-img,
+  .curry-bread-img {
+    width: 48%;
+    height: 240px;
+    margin: 15px auto;
+  }
+
+  .fukujinzuke-img,
+  .rakkyo-img {
+    width: 100%;
+    height: 240px;
     margin-top: 10px;
   }
 }
