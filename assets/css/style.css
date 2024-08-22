@@ -19,8 +19,8 @@ body {
 
 /* Container settings */
 .container {
-  width: 95%;
-  max-width: 1120px;
+  width: 90%;
+  max-width: 1600px;
   margin: 0 auto;
   position: relative;
 }
@@ -39,6 +39,12 @@ main {
   margin-top: 47px;
   display: flex;
   flex-direction: column;
+  background-color: #f9f9f9; 
+}
+
+/* Styling for each dish section */
+section {
+  margin-bottom: 2rem;
 }
 
 /* Headings styles */

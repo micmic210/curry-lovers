@@ -1,12 +1,11 @@
 /* Recipes Page Specific Styles */
 main {
-  padding-top: 15px;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  margin-top: 55px; 
   background-color: #f9f9f9; 
 }
+
+/* Basic curry */
 .h1-title {
-  /* margin-top: -0.5rem; */
   margin-bottom: 1rem;
   text-align: center;
   font-size: 1.8rem;
@@ -145,9 +144,8 @@ span {
   background-image: url(../images/rakkyo.jpg);
 }
 
-/* old query */
+/* @media only screen and (min-width: 769px) {
 
-@media only screen and (min-width: 769px) {
 
   .column-2 {
     width: 48%;
@@ -204,10 +202,14 @@ span {
     height: 168px;
     margin-top: 10px;
   }
-}
+} */
 
 /* Tablet Styles (min-width: 768px to 1024px) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #basic-title {
+    margin-bottom: -1.5rem;
+  }
+
   .column-2 {
     width: 48%;
     flex-basis: 48%;
@@ -326,7 +328,6 @@ span {
   .h1-title {
     font-size: 2.5rem;
     padding-top: 1.2rem; 
-    padding-bottom: 1.2rem; 
   }
 
   .h3-basic-title,
