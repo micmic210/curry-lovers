@@ -1,8 +1,8 @@
 /* General section styles for history page */
 main {
   padding-top: 15px;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 /* History intro section */
@@ -16,8 +16,8 @@ main {
 }
 
 #history-intro h1 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
+  font-size: 28.8px;
+  margin-bottom: 16px;
 }
 
 .curry-image-container {
@@ -26,7 +26,7 @@ main {
   height: 200px;
   background-size: cover;
   background-position: center;
-  margin-bottom: 1.3em;
+  margin-bottom: 20.8px;
   border-radius: 10px;
 }
 
@@ -35,25 +35,25 @@ main {
   display: flex;
   flex-direction: column;
   border-left: 3px solid #d77921;
-  padding-left: 1rem;
-  margin-left: 1.5rem;
+  padding-left: 16px;
+  margin-left: 24px;
   position: relative;
 }
 
 .period {
   font-weight: bold;
-  margin-top: 1rem;
+  margin-top: 16px;
 }
 
 .text {
-  font-size: 0.95rem;
-  margin-top: 0.5rem;
+  font-size: 15.2px;
+  margin-top: 8px;
   line-height: 1.4;
 }
 
 h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.75rem;
+  font-size: 24px;
+  margin-bottom: 12px;
   color: #505050;
   text-align: left;
 }
@@ -61,16 +61,16 @@ h2 {
 /* Media query for very small screens */
 @media (max-width: 400px) {
   .timeline {
-      padding-left: 0.5rem;
-      margin-left: 1rem;
+      padding-left: 8px;
+      margin-left: 16px;
   }
 
   .period {
-      font-size: 1rem;
+      font-size: 16px;
   }
 
   .text {
-      font-size: 0.9rem;
+      font-size: 14.4px;
   }
 }
 /* Additional styles for present-day section */
@@ -81,14 +81,14 @@ h2 {
 /* Media query for tablets (min-width: 600px and max-width: 768px) */
 @media (min-width: 600px) and (max-width: 768px) {
   main {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   #history-intro h1 {
-    font-size: 2rem;
-    padding-top: 1rem; 
-    padding-bottom: 1rem; 
+    font-size: 32px;
+    padding-top: 16px; 
+    padding-bottom: 16px; 
   }
 
   .curry-image-container {
@@ -97,34 +97,34 @@ h2 {
   }
 
   .timeline {
-    padding-left: 1.5rem;
-    margin-left: 2rem;
+    padding-left: 24px;
+    margin-left: 32px;
   }
 
   .period {
-    font-size: 1.2rem;
+    font-size: 19.2px;
   }
 
   .text {
-    font-size: 1rem;
+    font-size: 16px;
   }
 
   h2 {
-    font-size: 1.75rem;
+    font-size: 28px;
   }
 }
 
 /* Media query for laptops (min-width: 769px and max-width: 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
   main {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 48px;
+    padding-right: 48px;
   }
 
   #history-intro h1 {
-    font-size: 2.2rem;
-    padding-top: 1.2rem; 
-    padding-bottom: 1.2rem; 
+    font-size: 35.2px;
+    padding-top: 19.2px; 
+    padding-bottom: 19.2px; 
   }
 
   .curry-image-container {
@@ -133,33 +133,33 @@ h2 {
   }
 
   .timeline {
-    padding-left: 2rem;
-    margin-left: 2.5rem;
+    padding-left: 32px;
+    margin-left: 40px;
   }
 
   .period {
-    font-size: 1.4rem;
+    font-size: 22.4px;
   }
 
   .text {
-    font-size: 1.1rem;
+    font-size: 17.6px;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 32px;
   }
 }
 /*  Laptop Styling (min-width: 1025px and max-width: 1280px) */
 @media (min-width: 1025px) {
   main {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 64px;
+    padding-right: 64px;
   }
 
   #history-intro h1 {
-    font-size: 2.5rem;
-    padding-top: 1.2rem; 
-    padding-bottom: 1.2rem; 
+    font-size: 40px;
+    padding-top: 19.2px; 
+    padding-bottom: 19.2px; 
   }
 
   .curry-image-container {
@@ -168,55 +168,55 @@ h2 {
   }
 
   .timeline {
-    padding-left: 2.5rem;
-    margin-left: 3rem;
+    padding-left: 40px;
+    margin-left: 48px;
   }
 
   .period {
-    font-size: 1.6rem;
+    font-size: 25.6px;
   }
 
   .text {
-    font-size: 1.2rem;
+    font-size: 19.2px;
   }
 
   h2 {
-    font-size: 2.25rem;
+    font-size: 36px;
   }
 }
 /* Media query for desktops with a width of 1600px */
 @media (min-width: 1600px) {
   main {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 
   #history-intro h1 {
-    font-size: 2.7rem;
-    padding-top: 1.75rem;
-    padding-bottom: 1.75rem;
+    font-size: 43.2px;
+    padding-top: 28px;
+    padding-bottom: 28px;
   }
 
   .curry-image-container {
     height: 400px;
-    width: 50%;
+    width: 50%
   }
 
   .timeline {
-    padding-left: 3rem;
-    margin-left: 3.5rem;
+    padding-left: 48px;
+    margin-left: 56px;
   }
 
   .period {
-    font-size: 1.8rem;
+    font-size: 28.8px;
   }
 
   .text {
-    font-size: 1.3rem;
+    font-size: 20.8px;
   }
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 40px;
   }
 }
 
