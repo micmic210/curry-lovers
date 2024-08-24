@@ -8,26 +8,29 @@
     <meta name="description"
         content="Curry Lovers, a club for Japanese curry. Japanese curry history, recipes, cooking techniques and workshops">
     <meta name="keywords" content="Japanese curry history, curry rice, curry udon, curry bread, curry roux and recipes">
-    <!-- Favicon -->
+    <!-- Favicon links for different devices -->
     <link rel="icon" href="/assets/favicon/favicon-16x16.png" type="image/png">
     <link rel="icon" href="/assets/favicon/favicon-32x32.png" type="image/png">
     <link rel="icon" href="/assets/favicon/apple-touch-icon.png" type="image/png">
-    <!-- Title -->
+    <!-- Title of the webpage  -->
     <title>Curry Lovers</title>
-    <!-- Stylesheet -->
+    <!-- Link to the main stylesheet and membership-specific styles -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/membership.css">
 </head>
 
 <body>
     <header>
+        <!-- Website logo that links to the homepage -->
         <a href="index.html">
-            <h1 id="logo">Curry Lovers</h1>
+            <h2 id="logo">Curry Lovers</h2>
         </a>
+        <!-- Hamburger menu for mobile view -->
         <input type="checkbox" id="toggle-bars" name="toggle-bars">
         <label for="toggle-bars" class="toggle-bars-label">
             <i class="fa-solid fa-bars"></i>
         </label>
+        <!-- Navigation menu -->
         <nav>
             <ul id="menu">
                 <li>
@@ -46,24 +49,31 @@
         </nav>
     </header>
 
-    <!-- Main -->
+    <!-- Main content area -->
     <main>
         <div id="main-content">
-        <div id="form-container">
-            <form id="membership-form">
-                <h2>Let's join us!</h2>
-                <label for="first-name">First Name</label>
-                <input type="text" name="first_name" id="first-name" class="input-field" required autocomplete="given-name">
-                <label for="last-name">Last Name</label>
-                <input type="text" name="last_name" id="last-name" class="input-field" required autocomplete="family-name">
-                <label for="email">Email Address</label>
-                <input type="email" name="email" id="email" class="input-field" required autocomplete="email">
-                <button type="submit" class="submit-button"><strong>Let's Curry!</strong></button>
-            </form>            
-        </div>
+            <div id="form-container">
+                <!-- Membership form -->
+                <form id="membership-form">
+                    <h2>Let's join us!</h2>
+                    <!-- First Name input field -->
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first_name" id="first-name" class="input-field" required
+                        autocomplete="given-name">
+                    <!-- Last Name input field -->
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last_name" id="last-name" class="input-field" required
+                        autocomplete="family-name">
+                    <!-- Email Address input field -->
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" class="input-field" required autocomplete="email">
+                    <!-- Submit button -->
+                    <button type="submit" class="submit-button"><strong>Let's Curry!</strong></button>
+                </form>
+            </div>
         </div>
     </main>
-
+    <!-- Footer section with social media links -->
     <footer>
         <ul id="social-networks">
             <li>
@@ -91,6 +101,7 @@
                 </a>
             </li>
         </ul>
+        <!-- Footer logo and copyright notice -->
         <div class="footer-logo">
             <a href="index.html" class="logo">
                 <p>Curry Lovers</p>
@@ -101,7 +112,7 @@
         </div>
     </footer>
     <!-- Font Awesome kit -->
-    <script src="https://kit.fontawesome.com/abf98b7714.js" crossorigin="anonymous"></script>    
+    <script src="https://kit.fontawesome.com/abf98b7714.js" crossorigin="anonymous"></script>
     <!-- Jump to thank-you page -->
     <script>
         document.getElementById('membership-form').addEventListener('submit', function (event) {
@@ -113,9 +124,9 @@
 
             // Simple form validation
             if (firstName && lastName && email) {
-                window.location.href = 'thank-you.html';
+                window.location.href = 'thank-you.html'; // Redirect to thank-you page on successful submission
             } else {
-                alert('Please fill out all fields.');
+                alert('Please fill out all fields.'); // Alert user if any fields are missing
             }
         });
     </script>
