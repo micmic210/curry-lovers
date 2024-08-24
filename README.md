@@ -1,131 +1,108 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Curry Lovers
 
-Welcome Michiko  Inoue,
+Welcome to Curry Lovers – your go-to community for all things Japanese Curry! Whether you’re a seasoned chef or simply a fan of this comforting dish, we’re here to celebrate the unique flavors and heartwarming experience of Japanese curry.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Join us as we explore recipes, share tips, and connect with fellow enthusiasts who share a love for this delicious and satisfying cuisine. Dive into the world of Japanese curry with us!
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+![Screenshot of a responsive design]
+(https://micmic210.github.io/curry-fun-club/assets/images/responsive.png)
 
-## Gitpod Reminders
+## Contents 
+### User Experience
+Curry Lovers is designed with the user in mind, offering an intuitive and enjoyable experience for anyone who visits the site. The layout is simple and clean, making it easy for users to navigate through the various sections, from learning about the history of Japanese curry to discovering new recipes. The website provides a visually appealing interface with a consistent color scheme, readable typography, and engaging imagery that enhances the overall experience.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+#### User Stories
+The Curry Lovers website was developed to meet the needs of diverse users:
 
-`python3 -m http.server`
+	•	As a new visitor, I want to easily find information about Japanese curry, so I can learn more about this dish.
+	•	As a home cook, I want to access a variety of Japanese curry recipes, so I can try making them at home.
+	•	As a history enthusiast, I want to explore the origins and cultural significance of Japanese curry, so I can appreciate it more deeply.
+	•	As a member, I want to join a community of curry lovers, so I can share my experiences and learn from others.
+	•	As a user who encounters issues, I want to find solutions to any bugs I encounter, so my experience on the site remains smooth and enjoyable.
 
-A blue button should appear to click: _Make Public_,
+### Design
+#### Color Scheme
+ The website uses a warm and inviting color palette, reflecting the comforting nature of Japanese curry. The colors are carefully chosen to create a visually cohesive experience that is both appealing and easy on the eyes.
 
-Another blue button should appear to click: _Open Browser_.
+#### Typography
+The site employs a clear and legible font that ensures readability across all devices. The typography is chosen to complement the overall aesthetic while making the content easily accessible.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+#### Imagery
+High-quality images of Japanese curry dishes and related visuals are used throughout the site to engage users and provide a mouthwatering experience. These images are integral to the design, helping to convey the rich and comforting nature of the dishes featured on the site.
 
-A blue button should appear to click: _Make Public_,
+#### Features 
+The site includes key pages such as the Home Page, History Page, Recipes Page, Memberships Page, Thank-you Page, and a 404 Page, each designed with a consistent style and user-centric approach. The layout of these pages is straightforward, allowing users to find information quickly and easily.
 
-Another blue button should appear to click: _Open Browser_.
+  * Home Page
+  The Home Page serves as the welcoming gateway to the Curry Lovers website, offering users an overview of what the site has to offer. It features a visually appealing hero section with enticing images of Japanese curry, a brief introduction to the site’s purpose, and easy navigation links to the key sections of the site. The Home Page is designed to engage visitors immediately, providing quick access to popular recipes, latest updates, and an invitation to explore more about Japanese curry.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  * History Page
+  The History Page provides users with an in-depth look at the origins and evolution of Japanese curry. It features well-researched content presented in a narrative style, accompanied by historical images and timelines. This page aims to educate users about the cultural significance of Japanese curry, making it not just a culinary delight but also a meaningful part of Japan’s culinary heritage.
 
-To log into the Heroku toolbelt CLI:
+  * Recipes Page
+  The Recipes Page is the heart of the Curry Lovers website, offering a curated selection of Japanese curry recipes for users of all skill levels. Each recipe includes detailed instructions, ingredient lists, and tips for perfecting the dish. The page is organized for easy navigation, allowing users to filter recipes by ingredients, difficulty, or cooking time, making it simple to find the perfect recipe to try at home.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  * Memberships Page
+  The Memberships Page invites users to join the Curry Lovers community. It highlights the benefits of membership, such as access to exclusive content, personalized recipe recommendations, and the ability to connect with other curry enthusiasts. This page includes an easy-to-follow signup process, encouraging users to become a part of the growing community of Japanese curry lovers.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+  * Thank-you Page
+  The Thank-you Page is designed to acknowledge and appreciate users who have taken actions such as signing up for membership or submitting a recipe. It features a warm message of gratitude, reinforcing the community-oriented spirit of Curry Lovers. The page may also include recommendations for next steps, such as exploring more content or engaging with the community.
 
-### Connecting your Mongo database
+  * 404 Page
+  The 404 Page is a custom error page that appears when a user navigates to a non-existent page on the site. Instead of a standard error message, this page features a friendly and creative design that keeps the tone light and inviting. It provides clear navigation options to help users quickly find their way back to relevant content, ensuring a smooth and frustration-free user experience.
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+### Technologies Used
+#### Languages Used
+The Curry Lovers website is built using a combination of modern web development languages to ensure a responsive, user-friendly, and visually appealing experience:
 
-------
+	•	HTML5: Used for structuring the content and layout of the website, ensuring semantic and accessible design.
+	•	CSS3: Employed to style the website, including the color schemes, typography, and layout, making the site visually engaging and cohesive.
+	•	JavaScript: Utilized to add interactivity and dynamic elements to the site, enhancing the user experience with features like responsive navigation, form validation, and interactive content.
 
-## Release History
+### Deployment & Local Development
+#### Deployment
+Deployment
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+To deploy the Curry Lovers website on GitHub Pages, I followed these steps:
 
-**June 18, 2024,** Add Mongo back into template
+	1.	First, I made sure that my project was fully pushed to the GitHub repository: https://github.com/micmic210/curry-lovers.
+	2.	I then navigated to my repository on GitHub and clicked on the “Settings” tab.
+	3.	I scrolled down to the “Pages” section within the Settings.
+	4.	Under the “Source” dropdown menu, I selected the main branch, which is where my project’s code is stored.
+	5.	After selecting the branch, I clicked “Save.”
+	6.	Once these steps were completed, the site was successfully deployed and became live at https://micmic210.github.io/curry-lovers/.
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+#### Local Development
+  * How to Fork
+  To fork the Curry Lovers repository:
 
-**May 28 2024:** Fix Mongo and Links installs
+	1.	Log in (or sign up) to GitHub.
+	2.	Navigate to the repository for this project: micmic210/curry-lovers.
+	3.	Click the “Fork” button in the top right corner of the repository page.
+	4.	GitHub will create a copy of the repository under your account.
 
-**April 26 2024:** Update node version to 16
+  * How to Clone
+  To clone the repository:
 
-**September 20 2023:** Update Python version to 3.9.17.
+	1.	Log in (or sign up) to GitHub.
+	2.	Navigate to the repository for this project: micmic210/curry-lovers.
+	3.	Click on the “Code” button, and choose whether you would like to clone using HTTPS, SSH, or GitHub CLI. Copy the link provided for your preferred method.
+	4.	Open the terminal in your code editor and navigate to the directory where you want to clone the repository.
+	5.	Type git clone into the terminal, followed by the link you copied in step 3. Press Enter.
+  Example for HTTPS:
+  git clone https://github.com/YOUR-USERNAME/curry-lovers.git
+  6. Replace YOUR-USERNAME with your GitHub username. This will create a local copy of the repository on your machine, allowing you to work on it offline.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Testing 
+  * Solved Bugs
+  * Known Bugs
+### Credits
+  * Code Used
+  The Curry Lovers website incorporates code from the Love Running project, a lesson provided by Code Institute. Specifically, I utilized the structure and styling of the header area, including the navigation bar and hamburger menu functionality, to ensure a responsive and user-friendly experience across all devices. These elements were adapted and customized to fit the design and needs of the Curry Lovers site.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  * Content
+  * Media 
+  * Acknowledgments  
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
