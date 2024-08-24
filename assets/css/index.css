@@ -46,6 +46,7 @@
   width: 100%;
   text-align: center;
 }
+
 /* Styling for the main heading within the hero section */
 #cover-text h1 {
   margin-bottom: 16px;
@@ -56,6 +57,7 @@
 h2 {
   margin-bottom: 27.5px;
 }
+
 /* Styling for sections with specific classes */
 .intro,
 .about,
@@ -66,12 +68,14 @@ h2 {
   align-items: center;
   text-align: left;
 }
+
 /* Styling for left and right columns within sections */
 .column-left,
 .column-right {
   width: 100%;
   padding: 10px;
 }
+
 /* Styling for general text elements */
 .text {
   line-height: 1.5;
@@ -125,7 +129,9 @@ h2 {
   grid-template-columns: 1fr 1fr;
   gap: 10px;
   padding: 0 10px;
+  margin-top: 20px;
 }
+
 /* Styling for individual gallery columns */
 .column-a,
 .column-a,
@@ -173,6 +179,7 @@ h2 {
   transition: opacity 0.3s ease, transform 0.3s ease;
   pointer-events: none;
 }
+
 /* Hover effect to show tooltips */
 .column-a:hover::after,
 .column-b:hover::after,
@@ -181,6 +188,7 @@ h2 {
   opacity: 1;
   transform: translateY(0);
 }
+
 /* Background images for specific gallery columns */
 .column-a {
   background-image: url(../images/curry-udon.jpeg);
@@ -225,7 +233,7 @@ h2 {
 
   .text,
   #mission-list,
-  #activity-list  {
+  #activity-list {
     font-size: 16px;
     line-height: 1.5;
   }
@@ -251,6 +259,7 @@ h2 {
     height: 200px;
   }
 }
+
 /* Media query for laptop screens (1024px to 1280px) */
 @media (min-width: 1024px) and (max-width: 1280px) {
   #hero {
@@ -305,11 +314,12 @@ h2 {
     height: 220px;
   }
 }
+
 /* Media query for large laptop screens (1280px to 1600px) */
 @media (min-width: 1280px) and (max-width: 1600px) {
   #hero {
     height: 550px;
-    margin: 60px 40px 25px 40px; 
+    margin: 60px 40px 25px 40px;
   }
 
   #hero::before {
@@ -326,7 +336,7 @@ h2 {
 
   .column-left,
   .column-right {
-    width: 48%; 
+    width: 48%;
     margin-right: 25px;
     padding: 25px;
   }
@@ -359,6 +369,7 @@ h2 {
     height: 250px;
   }
 }
+
 /* Large Desktop Media Query (1600px and above) */
 @media (min-width: 1600px) {
   #hero {
@@ -369,7 +380,6 @@ h2 {
   #hero::before {
     height: 600px;
   }
-
 
   .intro,
   .about,
