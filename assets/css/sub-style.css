@@ -3,7 +3,7 @@
 /* Common styling for both #thank-you and #not-found sections */
 #thank-you, #not-found {
   text-align: center;
-  margin: 0;
+  margin-top: -7px;
   padding: 0;
   height: 100vh;
   background-position: center;
@@ -24,25 +24,26 @@
   background-image: url(../images/wallpaper.jpeg);
 }
 /* Styling for container elements */
-.container {
+.message-container {
   background: rgba(215, 212, 212, 0.7);
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
-  width: 90%;
+  width: 80%;
   max-width: 300px; 
   box-sizing: border-box;
   justify-content: center; 
   position: relative;
+  margin: 0 auto;
 }
 /* Styling for headings */
 h1 {
-  font-size: 2rem; 
+  font-size: 1.8rem; 
   margin: 0.5em 0;
 }
 /* Styling for paragraph text */
 p {
   line-height: 1.5;
-  font-size: 0.9rem; 
+  font-size: 1rem; 
   margin: 0.5em 0;
   color: #3a3a3a;
 }
@@ -71,51 +72,113 @@ footer {
 /* Additional mobile-specific styles */
 @media (max-width: 480px) {
   .container {
-    width: 90%; 
-    padding: 15px; 
+    width: 60%;
+    max-width: 500px;
+    padding: 20px; 
   }
   h1 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
   
   p {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
   }
 
   .back-home {
-    font-size: 0.9rem;
-    padding: 8px 16px;
+    font-size: 1.1rem;
+    padding: 12px 24px;
   }
 }
-/* Additional styles for larger screens */
-@media (min-width: 1024px) {
-  #thank-you, #not-found {
-    justify-content: center; 
-  }
-
-  .container {
+/* Styles for tablets (768x1024) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .message-container {
     width: 60%; 
-    max-width: 800px; 
-    padding: 40px; 
-  }
-
-  h1, p, .back-home {
-    max-width: 100%; 
+    max-width: 500px;
+    padding: 20px;
   }
 
   h1 {
     font-size: 2rem; 
+  }
+
+  p {
+    font-size: 1.1rem; 
+  }
+
+  .back-home {
+    font-size: 1.1rem; /* Enlarged font size for tablets */
+    padding: 12px 24px; /* Enlarged padding for tablets */
+  }
+}
+
+/* Styles for medium screens (1280x802) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .message-container {
+    width: 50%; 
+    max-width: 600px; 
+    padding: 25px; 
+  }
+
+  h1 {
+    font-size: 2.2rem; 
+  }
+
+  p {
+    font-size: 1.2rem; 
+  }
+
+  .back-home {
+    font-size: 1.2rem; 
+    padding: 14px 28px; 
+  }
+}
+
+/* Styles for large screens (1600x992) */
+@media (min-width: 1281px) and (max-width: 1600px) {
+  .message-container {
+    width: 45%; 
+    max-width: 700px; 
+    padding: 30px; 
+  }
+
+  h1 {
+    font-size: 2.4rem; 
     margin-bottom: 20px; 
   }
 
   p {
-    font-size: 1rem; 
+    font-size: 1.3rem; 
     margin-bottom: 30px; 
     text-align: center; 
   }
 
   .back-home {
-    font-size: 1rem; 
-    padding: 12px 24px; 
+    font-size: 1.3rem; 
+    padding: 16px 32px; 
+  }
 }
+
+/* Additional styles for extra large screens (above 1600px) */
+@media (min-width: 1601px) {
+  .message-container {
+    width: 40%; 
+    max-width: 800px; 
+    padding: 35px; 
+  }
+
+  h1 {
+    font-size: 2.6rem; 
+    margin-bottom: 25px; 
+  }
+
+  p {
+    font-size: 1.4rem; 
+    margin-bottom: 35px; 
+    text-align: center; 
+  }
+
+  .back-home {
+    font-size: 1.4rem; 
+    padding: 18px 36px; 
+  }
 }
