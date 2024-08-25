@@ -14,16 +14,19 @@ Curry Lovers is designed with the user in mind, offering an intuitive and enjoya
 #### User Stories
 The Curry Lovers website was developed to meet the needs of a diverse range of users:
 
-	•	As a new visitor, I want to easily find information about Japanese curry, so I can learn more about this dish.
-	•	As a home cook, I want to access a variety of Japanese curry recipes, so I can try making them at home.
-	•	As a history enthusiast, I want to explore the origins and cultural significance of Japanese curry, so I can appreciate it more deeply.
-	•	As a member, I want to join a community of curry lovers, so I can share my experiences and learn from others.
-	•	As a user who encounters issues, I want to find solutions to any bugs I encounter, so my experience on the site remains smooth and enjoyable.
+
+As a new visitor, I want to easily find information about Japanese curry, so I can learn more about this dish.
+As a home cook, I want to access a variety of Japanese curry recipes, so I can try making them at home.
+As a history enthusiast, I want to explore the origins and cultural significance of Japanese curry, so I can appreciate it more deeply.
+As a member, I want to join a community of curry lovers, so I can share my experiences and learn from others.
+As a user who encounters issues, I want to find solutions to any bugs I encounter, so my experience on the site remains smooth and enjoyable.
 
 ### Design
 #### Color Scheme
- The website uses a warm and inviting color palette, reflecting the comforting nature of Japanese curry. The colors are carefully chosen to create a visually cohesive experience that is both appealing and easy on the eyes.
 
+Color Scheme
+
+The “CURRY LOVERS” website utilizes a warm and earthy color palette that reflects the rich and hearty nature of curry dishes. The dominant color, #D77921, is a vibrant orange that evokes the warmth and spice of curry, making it ideal for capturing the essence of the brand. Complementing this are the deep, chocolatey brown tones of #3A2A2A, which add a sense of richness and depth to the design. The darker gray hues, #3A3A3A and #505050, provide a strong, neutral foundation that balances the more intense colors, while #696969 offers a softer contrast. Finally, the light gray #F9F9F9 serves as a clean and minimal backdrop, ensuring readability and a modern aesthetic. Together, these colors create a cohesive and appetizing visual experience, perfectly suited to a website dedicated to curry lovers.
 #### Typography
 The site employs a clear and legible font that ensures readability across all devices. The typography is chosen to complement the overall aesthetic while making the content easily accessible.
 
@@ -55,30 +58,33 @@ The site includes key pages such as the Home Page, History Page, Recipes Page, M
 
  The Curry Lovers website will be enhanced with the following features to provide users with a richer and more informative experience:
 
-	1.	Recipe Database: A comprehensive, searchable database of curry recipes. Users can filter by region (e.g., Indian, Thai), spice level (mild, medium, hot), and dietary preferences (vegan, gluten-free). This allows users to easily discover new recipes tailored to their tastes and dietary needs.
+Recipe Database: A comprehensive, searchable database of curry recipes. Users can filter by region (e.g., Indian, Thai), spice level (mild, medium, hot), and dietary preferences (vegan, gluten-free). This allows users to easily discover new recipes tailored to their tastes and dietary needs.
 
-	2.	Nutritional Information: Detailed nutritional breakdown for each recipe, including calories, macronutrients (protein, fat, carbohydrates), and potential allergens. This helps users make informed dietary choices.
+Nutritional Information: Detailed nutritional breakdown for each recipe, including calories, macronutrients (protein, fat, carbohydrates), and potential allergens. This helps users make informed dietary choices.
 
-	3.	Curry History and Culture Section: An educational section exploring the origins and cultural significance of curry in various parts of the world. This feature enhances user understanding and appreciation of the diversity of curry.
+Curry History and Culture Section: An educational section exploring the origins and cultural significance of curry in various parts of the world. This feature enhances user understanding and appreciation of the diversity of curry.
 
 ### Technologies Used
 #### Languages Used
 The Curry Lovers website is built using a combination of modern web development languages to ensure a responsive, user-friendly, and visually appealing experience:
 
-	•	HTML5: Used for structuring the content and layout of the website, ensuring semantic and accessible design.
-	•	CSS3: Employed to style the website, including the color schemes, typography, and layout, making the site visually engaging and cohesive.
-	•	JavaScript: Utilized to add interactivity and dynamic elements to the site, enhancing the user experience with features like responsive navigation, form validation, and interactive content.
+HTML5: Used for structuring the content and layout of the website, ensuring semantic and accessible design.
+
+CSS3: Employed to style the website, including the color schemes, typography, and layout, making the site visually engaging and cohesive.
+
+JavaScript: Utilized to add interactivity and dynamic elements to the site, enhancing the user experience with features like responsive navigation, form validation, and interactive content.
+
 #### Frameworks, Libraries & Programs Used
-	•	Balsamiq: Created wireframes for the site.
-	•	GitHub: Version control and file storage.
-	•	GitPod: IDE for site development.
-	•	Google Fonts: Imported custom fonts.
-	•	Google Developer Tools: Debugging, testing features, and ensuring responsiveness.
-	•	TinyPNG: Image compression.
-	•	Birme: Image resizing and webp format conversion.
-	•	Favicon.io: Favicon creation.
-	•	Am I Responsive?: Displayed website previews across various devices.
-	•	Grammarly: Checked spelling and grammar.
+Balsamiq: Created wireframes for the site.
+GitHub: Version control and file storage.
+GitPod: IDE for site development.
+Google Fonts: Imported custom fonts.
+Google Developer Tools: Debugging, testing features, and ensuring responsiveness.
+TinyPNG: Image compression.
+Birme: Image resizing and webp format conversion.
+Favicon.io: Favicon creation.
+Am I Responsive?: Displayed website previews across various devices.
+Grammarly: Checked spelling and grammar.
 
 ### Deployment & Local Development
 #### Deployment
@@ -86,12 +92,17 @@ Deployment
 
 To deploy the Curry Lovers website on GitHub Pages, I followed these steps:
 
-	1.	First, I made sure that my project was fully pushed to the GitHub repository: https://github.com/micmic210/curry-lovers.
-	2.	I then navigated to my repository on GitHub and clicked on the “Settings” tab.
-	3.	I scrolled down to the “Pages” section within the Settings.
-	4.	Under the “Source” dropdown menu, I selected the main branch, which is where my project’s code is stored.
-	5.	After selecting the branch, I clicked “Save.”
-	6.	Once these steps were completed, the site was successfully deployed and became live at https://micmic210.github.io/curry-lovers/.
+First, I made sure that my project was fully pushed to the GitHub repository: https://github.com/micmic210/curry-lovers.
+
+I then navigated to my repository on GitHub and clicked on the “Settings” tab.
+
+I scrolled down to the “Pages” section within the Settings.
+
+Under the “Source” dropdown menu, I selected the main branch, which is where my project’s code is stored.
+
+After selecting the branch, I clicked “Save.”
+
+Once these steps were completed, the site was successfully deployed and became live at https://micmic210.github.io/curry-lovers/.
 
 #### Local Development
   * How to Fork
@@ -126,9 +137,11 @@ To deploy the Curry Lovers website on GitHub Pages, I followed these steps:
 
   This project includes content adapted or referenced from the following sources:
 
-	•	Wikipedia - Portions of the historical overview and development of Japanese curry are based on content from Wikipedia. Japanese Curry - Wikipedia
-	•	Tasting Table - Insights on the regional varieties and flavor profiles of Japanese curry were drawn from Tasting Table. The History of Japanese Curry Rice - Tasting Table
-	•	Japan Insider Secrets - Detailed information on the history, varieties, and cooking methods of Japanese curry was adapted from this source.　Japanese Curry: A Complete Guide - Japan Insider Secrets
+Wikipedia - Portions of the historical overview and development of Japanese curry are based on content from Wikipedia. Japanese Curry - Wikipedia
+
+Tasting Table - Insights on the regional varieties and flavor profiles of Japanese curry were drawn from Tasting Table. The History of Japanese Curry Rice - Tasting Table
+
+Japan Insider Secrets - Detailed information on the history, varieties, and cooking methods of Japanese curry was adapted from this source.　Japanese Curry: A Complete Guide - Japan Insider Secrets
 
   * Media 
   This project includes images borrowed from the following sources:
