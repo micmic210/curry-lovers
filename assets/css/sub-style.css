@@ -1,7 +1,8 @@
 /* Styling for thank-you.html and 404.html */
 
 /* Common styling for both #thank-you and #not-found sections */
-#thank-you, #not-found {
+#thank-you,
+#not-found {
   text-align: center;
   margin-top: -7px;
   padding: 0;
@@ -13,40 +14,46 @@
   justify-content: center;
   align-items: center;
   color: #fafafa;
-  flex-direction: column; 
+  flex-direction: column;
 }
+
 /* Specific background image for the thank-you section */
 #thank-you {
   background-image: url(../images/curry-rice-main.jpeg);
 }
+
 /* Specific background image for the not-found section */
 #not-found {
   background-image: url(../images/wallpaper.jpeg);
 }
+
 /* Styling for container elements */
 .message-container {
   background: rgba(215, 212, 212, 0.7);
   padding: 10px;
   border-radius: 10px;
   width: 80%;
-  max-width: 300px; 
+  max-width: 300px;
   box-sizing: border-box;
-  justify-content: center; 
+  justify-content: center;
   position: relative;
   margin: 0 auto;
 }
+
 /* Styling for headings */
 h1 {
-  font-size: 1.8rem; 
+  font-size: 1.8rem;
   margin: 0.5em 0;
 }
+
 /* Styling for paragraph text */
 p {
   line-height: 1.5;
-  font-size: 1rem; 
+  font-size: 1rem;
   margin: 0.5em 0;
   color: #3a3a3a;
 }
+
 /* Styling for the back-home button */
 .back-home {
   display: inline-block;
@@ -56,14 +63,16 @@ p {
   color: #faf0e6;
   text-decoration: none;
   border-radius: 5px;
-  font-size: 1rem; 
+  font-size: 1rem;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
 }
+
 /* Hover effect for the back-home button */
 .back-home:hover {
   background-color: #696969;
 }
+
 /* Styling for the footer */
 footer {
   margin-top: -40px;
@@ -74,12 +83,13 @@ footer {
   .container {
     width: 60%;
     max-width: 500px;
-    padding: 20px; 
+    padding: 20px;
   }
+
   h1 {
     font-size: 2rem;
   }
-  
+
   p {
     font-size: 1.1rem;
   }
@@ -89,96 +99,99 @@ footer {
     padding: 12px 24px;
   }
 }
+
 /* Styles for tablets (768x1024) */
 @media (min-width: 768px) and (max-width: 1024px) {
   .message-container {
-    width: 60%; 
+    width: 60%;
     max-width: 500px;
     padding: 20px;
   }
 
   h1 {
-    font-size: 2rem; 
+    font-size: 2rem;
   }
 
   p {
-    font-size: 1.1rem; 
+    font-size: 1.1rem;
   }
 
   .back-home {
-    font-size: 1.1rem; /* Enlarged font size for tablets */
-    padding: 12px 24px; /* Enlarged padding for tablets */
+    font-size: 1.1rem;
+    /* Enlarged font size for tablets */
+    padding: 12px 24px;
+    /* Enlarged padding for tablets */
   }
 }
 
 /* Styles for medium screens (1280x802) */
 @media (min-width: 1025px) and (max-width: 1280px) {
   .message-container {
-    width: 50%; 
-    max-width: 600px; 
-    padding: 25px; 
+    width: 50%;
+    max-width: 600px;
+    padding: 25px;
   }
 
   h1 {
-    font-size: 2.2rem; 
+    font-size: 2.2rem;
   }
 
   p {
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
   }
 
   .back-home {
-    font-size: 1.2rem; 
-    padding: 14px 28px; 
+    font-size: 1.2rem;
+    padding: 14px 28px;
   }
 }
 
 /* Styles for large screens (1600x992) */
 @media (min-width: 1281px) and (max-width: 1600px) {
   .message-container {
-    width: 45%; 
-    max-width: 700px; 
-    padding: 30px; 
+    width: 45%;
+    max-width: 700px;
+    padding: 30px;
   }
 
   h1 {
-    font-size: 2.4rem; 
-    margin-bottom: 20px; 
+    font-size: 2.4rem;
+    margin-bottom: 20px;
   }
 
   p {
-    font-size: 1.3rem; 
-    margin-bottom: 30px; 
-    text-align: center; 
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    text-align: center;
   }
 
   .back-home {
-    font-size: 1.3rem; 
-    padding: 16px 32px; 
+    font-size: 1.3rem;
+    padding: 16px 32px;
   }
 }
 
 /* Additional styles for extra large screens (above 1600px) */
 @media (min-width: 1601px) {
   .message-container {
-    width: 40%; 
-    max-width: 800px; 
-    padding: 35px; 
+    width: 40%;
+    max-width: 800px;
+    padding: 35px;
   }
 
   h1 {
-    font-size: 2.6rem; 
-    margin-bottom: 25px; 
+    font-size: 2.6rem;
+    margin-bottom: 25px;
   }
 
   p {
-    font-size: 1.4rem; 
-    margin-bottom: 35px; 
-    text-align: center; 
+    font-size: 1.4rem;
+    margin-bottom: 35px;
+    text-align: center;
   }
 
   .back-home {
-    font-size: 1.4rem; 
-    padding: 18px 36px; 
+    font-size: 1.4rem;
+    padding: 18px 36px;
   }
 }
