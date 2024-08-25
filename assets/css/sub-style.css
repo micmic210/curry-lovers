@@ -19,12 +19,12 @@
 
 /* Specific background image for the thank-you section */
 #thank-you {
-  background-image: url(../images/curry-rice-main.jpeg);
+  background-image: url(../images/curry-rice-main.webp);
 }
 
 /* Specific background image for the not-found section */
 #not-found {
-  background-image: url(../images/wallpaper.jpeg);
+  background-image: url(../images/wallpaper.webp);
 }
 
 /* Styling for container elements */
