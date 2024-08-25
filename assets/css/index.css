@@ -1,5 +1,4 @@
 /* Index Page Specific Styles */
-/* Hero section */
 /* Styling for the hero section */
 #hero {
   background-image: url(../images/curry-variation.jpg);
@@ -16,7 +15,6 @@
 }
 
 /* Hero section overlay */
-/* Creates a dark overlay over the hero section */
 #hero::before {
   content: '';
   width: 100%;
@@ -30,7 +28,6 @@
 }
 
 /* Hero container */
-/* Container for content within the hero section */
 .hero-container {
   width: 100%;
   padding: 0 16px;
@@ -39,7 +36,6 @@
   box-sizing: border-box;
 }
 
-/* Hero section text */
 /* Styling for text within the hero section */
 #cover-text {
   z-index: 2;
@@ -52,7 +48,6 @@
   margin-bottom: 16px;
 }
 
-/* Global setting for sections */
 /* Global styling for h2 headings */
 h2 {
   margin-bottom: 27.5px;
@@ -82,7 +77,6 @@ h2 {
   text-align: left;
 }
 
-/* Global setting for section images */
 /* Styling for images within specific sections */
 .introduction-img,
 .about-img,
@@ -96,7 +90,6 @@ h2 {
   overflow: hidden;
 }
 
-/* Section images */
 /* Sets background images for specific section images */
 .introduction-img {
   background-image: url(../images/curry-rice-main.jpeg);
@@ -114,7 +107,6 @@ h2 {
   background-image: url(../images/activity.jpg);
 }
 
-/* Lists */
 /* Styling for mission and activity lists */
 #mission-list,
 #activity-list {
@@ -122,7 +114,6 @@ h2 {
   list-style: none;
 }
 
-/* Gallery */
 /* Grid layout for the gallery section */
 #gallery {
   display: grid;
@@ -150,7 +141,6 @@ h2 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover effect */
 /* Hover effects for gallery columns */
 .column-a:hover,
 .column-b:hover,
@@ -160,7 +150,6 @@ h2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Tooltip styling */
 /* Styling for tooltips that appear on hover */
 .column-a::after,
 .column-b::after,
