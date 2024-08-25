@@ -5,14 +5,14 @@ Welcome to Curry Lovers – your go-to community for all things Japanese Curry! 
 Join us as we explore recipes, share tips, and connect with fellow enthusiasts who share a love for this delicious and satisfying cuisine. Dive into the world of Japanese curry with us!
 
 ![Screenshot of a responsive design]
-
+Here's the website https://micmic210.github.io/curry-lovers/index.html
 
 ## Contents 
 ### User Experience
 Curry Lovers is designed with the user in mind, offering an intuitive and enjoyable experience for anyone who visits the site. The layout is simple and clean, making it easy for users to navigate through the various sections, from learning about the history of Japanese curry to discovering new recipes. The website provides a visually appealing interface with a consistent color scheme, readable typography, and engaging imagery that enhances the overall experience.
 
 #### User Stories
-The Curry Lovers website was developed to meet the needs of diverse users:
+The Curry Lovers website was developed to meet the needs of a diverse range of users:
 
 	•	As a new visitor, I want to easily find information about Japanese curry, so I can learn more about this dish.
 	•	As a home cook, I want to access a variety of Japanese curry recipes, so I can try making them at home.
@@ -51,6 +51,16 @@ The site includes key pages such as the Home Page, History Page, Recipes Page, M
   * 404 Page
   The 404 Page is a custom error page that appears when a user navigates to a non-existent page on the site. Instead of a standard error message, this page features a friendly and creative design that keeps the tone light and inviting. It provides clear navigation options to help users quickly find their way back to relevant content, ensuring a smooth and frustration-free user experience.
 
+  * Future Implementations 
+
+ The Curry Lovers website will be enhanced with the following features to provide users with a richer and more informative experience:
+
+	1.	Recipe Database: A comprehensive, searchable database of curry recipes. Users can filter by region (e.g., Indian, Thai), spice level (mild, medium, hot), and dietary preferences (vegan, gluten-free). This allows users to easily discover new recipes tailored to their tastes and dietary needs.
+
+	2.	Nutritional Information: Detailed nutritional breakdown for each recipe, including calories, macronutrients (protein, fat, carbohydrates), and potential allergens. This helps users make informed dietary choices.
+
+	3.	Curry History and Culture Section: An educational section exploring the origins and cultural significance of curry in various parts of the world. This feature enhances user understanding and appreciation of the diversity of curry.
+
 ### Technologies Used
 #### Languages Used
 The Curry Lovers website is built using a combination of modern web development languages to ensure a responsive, user-friendly, and visually appealing experience:
@@ -58,6 +68,17 @@ The Curry Lovers website is built using a combination of modern web development 
 	•	HTML5: Used for structuring the content and layout of the website, ensuring semantic and accessible design.
 	•	CSS3: Employed to style the website, including the color schemes, typography, and layout, making the site visually engaging and cohesive.
 	•	JavaScript: Utilized to add interactivity and dynamic elements to the site, enhancing the user experience with features like responsive navigation, form validation, and interactive content.
+#### Frameworks, Libraries & Programs Used
+	•	Balsamiq: Created wireframes for the site.
+	•	GitHub: Version control and file storage.
+	•	GitPod: IDE for site development.
+	•	Google Fonts: Imported custom fonts.
+	•	Google Developer Tools: Debugging, testing features, and ensuring responsiveness.
+	•	TinyPNG: Image compression.
+	•	Birme: Image resizing and webp format conversion.
+	•	Favicon.io: Favicon creation.
+	•	Am I Responsive?: Displayed website previews across various devices.
+	•	Grammarly: Checked spelling and grammar.
 
 ### Deployment & Local Development
 #### Deployment
@@ -102,7 +123,32 @@ To deploy the Curry Lovers website on GitHub Pages, I followed these steps:
   The Curry Lovers website incorporates code from the Love Running project, a lesson provided by Code Institute. Specifically, I utilized the structure and styling of the header area, including the navigation bar and hamburger menu functionality, to ensure a responsive and user-friendly experience across all devices. These elements were adapted and customized to fit the design and needs of the Curry Lovers site.
 
   * Content
+
+  This project includes content adapted or referenced from the following sources:
+
+	•	Wikipedia - Portions of the historical overview and development of Japanese curry are based on content from Wikipedia. Japanese Curry - Wikipedia
+	•	Tasting Table - Insights on the regional varieties and flavor profiles of Japanese curry were drawn from Tasting Table. The History of Japanese Curry Rice - Tasting Table
+	•	Japan Insider Secrets - Detailed information on the history, varieties, and cooking methods of Japanese curry was adapted from this source.　Japanese Curry: A Complete Guide - Japan Insider Secrets
+
   * Media 
+  This project includes images borrowed from the following sources:
+
+  Photo-ac.com: activity, curry-rice-main, fukujinzuke, rakkyo  
+
+  Unsplash: baked-curry, croque, curry-bread, curry-pod,curry-rice, curry-udon, members, mission
+
+  CANVA: favicon, curry-variation, wallpaper   
+
   * Acknowledgments  
+  I would like to express my gratitude to Mr. Jubril Akolade, my mentor from Code Institute, for his guidance and support. Special thanks to my husband, daughter, sister, and nephews for their invaluable feedback and advice during the development of this website.
+
+  * Recipe References:
+	•	The Basic Curry Rice recipe is based on common Japanese culinary practices.
+	•	The Curry Bread recipe was developed using standard practices detailed in Tomiz Recipe - Basic Curry Bread.
+	•	The Curry Udon, Baked Curry, and Curry Croquette recipes were adapted from traditional family recipes, with adjustments made to suit this project.
+	
+  * Written Descriptions or Explanations:
+	•	Portions of the historical overview and development of Japanese curry were enhanced using content from Wikipedia and other resources. 
+	•	Cultural insights and variations of Japanese curry were based on information from sources such as Tasting Table and Japan Food Guide. 
 
 
