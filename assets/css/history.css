@@ -17,11 +17,13 @@ main {
   justify-content: center;
   padding: 10px;
 }
+
 /* Styling for the heading within the intro section */
 #history-intro h1 {
   font-size: 28.8px;
   margin-bottom: 16px;
 }
+
 /* Container for the image in the intro section */
 .curry-image-container {
   background-image: url(../images/curry-rice-main.jpeg);
@@ -32,6 +34,7 @@ main {
   margin-bottom: 20.8px;
   border-radius: 10px;
 }
+
 /* Timeline container */
 /* Layout and styling for the timeline */
 .timeline {
@@ -42,17 +45,20 @@ main {
   margin-left: 24px;
   position: relative;
 }
+
 /* Styling for the period labels in the timeline */
 .period {
   font-weight: bold;
   margin-top: 16px;
 }
+
 /* Styling for the descriptive text in the timeline */
 .text {
   font-size: 15.2px;
   margin-top: 8px;
   line-height: 1.4;
 }
+
 /* General heading styling */
 h2 {
   font-size: 24px;
@@ -66,18 +72,19 @@ h2 {
 /* Adjustments for very small screens */
 @media (max-width: 400px) {
   .timeline {
-      padding-left: 8px;
-      margin-left: 16px;
+    padding-left: 8px;
+    margin-left: 16px;
   }
 
   .period {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   .text {
-      font-size: 14.4px;
+    font-size: 14.4px;
   }
 }
+
 /* Additional styles for present-day section */
 /* Styling for a specific section in the timeline */
 #history-six .timeline {
@@ -94,8 +101,8 @@ h2 {
 
   #history-intro h1 {
     font-size: 32px;
-    padding-top: 16px; 
-    padding-bottom: 16px; 
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 
   .curry-image-container {
@@ -131,8 +138,8 @@ h2 {
 
   #history-intro h1 {
     font-size: 35.2px;
-    padding-top: 19.2px; 
-    padding-bottom: 19.2px; 
+    padding-top: 19.2px;
+    padding-bottom: 19.2px;
   }
 
   .curry-image-container {
@@ -157,6 +164,7 @@ h2 {
     font-size: 32px;
   }
 }
+
 /*  Laptop Styling (min-width: 1025px and max-width: 1280px) */
 /* Adjustments for larger laptops */
 @media (min-width: 1025px) {
@@ -167,13 +175,13 @@ h2 {
 
   #history-intro h1 {
     font-size: 40px;
-    padding-top: 19.2px; 
-    padding-bottom: 19.2px; 
+    padding-top: 19.2px;
+    padding-bottom: 19.2px;
   }
 
   .curry-image-container {
     height: 300px;
-    width: 50%; 
+    width: 50%;
   }
 
   .timeline {
@@ -193,6 +201,7 @@ h2 {
     font-size: 36px;
   }
 }
+
 /* Media query for desktops with a width of 1600px */
 /* Adjustments for large desktop screens */
 @media (min-width: 1600px) {
@@ -229,4 +238,3 @@ h2 {
     font-size: 40px;
   }
 }
-
