@@ -1,5 +1,5 @@
-/* General section styles for history page */
-/* Main content area styling */
+/* History Page Specific Styles */
+/* Main content */
 main {
   padding-top: 15px;
   padding-left: 16px;
@@ -7,7 +7,6 @@ main {
 }
 
 /* History intro section */
-
 /* Intro section layout and styling */
 #history-intro {
   text-align: center;
@@ -69,7 +68,6 @@ h2 {
 
 /* Media query for very small screens (max-width: 400px) */
 
-/* Adjustments for very small screens */
 @media (max-width: 400px) {
   .timeline {
     padding-left: 8px;
@@ -86,13 +84,11 @@ h2 {
 }
 
 /* Additional styles for present-day section */
-/* Styling for a specific section in the timeline */
 #history-six .timeline {
   border-left: 3px solid #505050;
 }
 
 /* Media query for tablets (min-width: 600px and max-width: 768px) */
-/* Adjustments for tablet screens */
 @media (min-width: 600px) and (max-width: 768px) {
   main {
     padding-left: 32px;
@@ -129,7 +125,6 @@ h2 {
 }
 
 /* Media query for laptops (min-width: 769px and max-width: 1024px) */
-/* Adjustments for laptop screens */
 @media (min-width: 769px) and (max-width: 1024px) {
   main {
     padding-left: 48px;
@@ -166,7 +161,6 @@ h2 {
 }
 
 /*  Laptop Styling (min-width: 1025px and max-width: 1280px) */
-/* Adjustments for larger laptops */
 @media (min-width: 1025px) {
   main {
     padding-left: 64px;
@@ -203,7 +197,6 @@ h2 {
 }
 
 /* Media query for desktops with a width of 1600px */
-/* Adjustments for large desktop screens */
 @media (min-width: 1600px) {
   main {
     padding-left: 80px;
