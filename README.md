@@ -1,5 +1,6 @@
 # Curry Lovers
 
+![Curry Lovers](/documentation/home-page.webp)
 Welcome to Curry Lovers – your go-to community for all things Japanese Curry! Whether you’re a seasoned chef or simply a fan of this comforting dish, we’re here to celebrate the unique flavors and heartwarming experience of Japanese curry.
 
 Join us as we explore recipes, share tips, and connect with fellow enthusiasts who share a love for this delicious and satisfying cuisine. Dive into the world of Japanese curry with us!
@@ -8,6 +9,38 @@ Join us as we explore recipes, share tips, and connect with fellow enthusiasts w
 Here's the website https://micmic210.github.io/curry-lovers/index.html
 
 ## Contents 
+* [User Experience](#user-experience)
+  * [User Stories](#user-stories)
+
+* [Design](#design)
+  * [Color Scheme](#color-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes]()
+  * [Features](#features)
+      * [The Home Page](#)
+      * [The History Page]()
+      * [The Recipes Page]()
+      * [The Membership Page]()
+      * [The Thank-you Page]()
+      * [The 404 Page]()
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+* [Deployment & Local Deployment](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#)
+    * [How to Clone]()
+* [Testing](#testing)
+  * [Solved Bugs](#)
+  * [Known Bugs]()
+* [Credits](#credits)
+  * [Code Used](#)
+  * [Content](#contents)
+  * [Media](#)
+  * [Acknowledgments](#)
+
 ### User Experience
 Curry Lovers is designed with the user in mind, offering an intuitive and enjoyable experience for anyone who visits the site. The layout is simple and clean, making it easy for users to navigate through the various sections, from learning about the history of Japanese curry to discovering new recipes. The website provides a visually appealing interface with a consistent color scheme, readable typography, and engaging imagery that enhances the overall experience.
 
@@ -36,25 +69,25 @@ High-quality images of Japanese curry dishes and related visuals are used throug
 #### Features 
 The site includes key pages such as the Home Page, History Page, Recipes Page, Memberships Page, Thank-you Page, and a 404 Page, each designed with a consistent style and user-centric approach. The layout of these pages is straightforward, allowing users to find information quickly and easily.
 
-  * Home Page
-  The Home Page serves as the welcoming gateway to the Curry Lovers website, offering users an overview of what the site has to offer. It features a visually appealing hero section with enticing images of Japanese curry, a brief introduction to the site’s purpose, and easy navigation links to the key sections of the site. The Home Page is designed to engage visitors immediately, providing quick access to popular recipes, latest updates, and an invitation to explore more about Japanese curry.
+* Home Page
+The Home Page serves as the welcoming gateway to the Curry Lovers website, offering users an overview of what the site has to offer. It features a visually appealing hero section with enticing images of Japanese curry, a brief introduction to the site’s purpose, and easy navigation links to the key sections of the site. The Home Page is designed to engage visitors immediately, providing quick access to popular recipes, latest updates, and an invitation to explore more about Japanese curry.
 
-  * History Page
-  The History Page provides users with an in-depth look at the origins and evolution of Japanese curry. It features well-researched content presented in a narrative style, accompanied by historical images and timelines. This page aims to educate users about the cultural significance of Japanese curry, making it not just a culinary delight but also a meaningful part of Japan’s culinary heritage.
+* History Page
+The History Page provides users with an in-depth look at the origins and evolution of Japanese curry. It features well-researched content presented in a narrative style, accompanied by historical images and timelines. This page aims to educate users about the cultural significance of Japanese curry, making it not just a culinary delight but also a meaningful part of Japan’s culinary heritage.
 
-  * Recipes Page
-  The Recipes Page is the heart of the Curry Lovers website, offering a curated selection of Japanese curry recipes for users of all skill levels. Each recipe includes detailed instructions, ingredient lists, and tips for perfecting the dish. The page is organized for easy navigation, allowing users to filter recipes by ingredients, difficulty, or cooking time, making it simple to find the perfect recipe to try at home.
+* Recipes Page
+The Recipes Page is the heart of the Curry Lovers website, offering a curated selection of Japanese curry recipes for users of all skill levels. Each recipe includes detailed instructions, ingredient lists, and tips for perfecting the dish. The page is organized for easy navigation, allowing users to filter recipes by ingredients, difficulty, or cooking time, making it simple to find the perfect recipe to try at home.
 
-  * Memberships Page
-  The Memberships Page invites users to join the Curry Lovers community. It highlights the benefits of membership, such as access to exclusive content, personalized recipe recommendations, and the ability to connect with other curry enthusiasts. This page includes an easy-to-follow signup process, encouraging users to become a part of the growing community of Japanese curry lovers.
+* Memberships Page
+The Memberships Page invites users to join the Curry Lovers community. It highlights the benefits of membership, such as access to exclusive content, personalized recipe recommendations, and the ability to connect with other curry enthusiasts. This page includes an easy-to-follow signup process, encouraging users to become a part of the growing community of Japanese curry lovers.
 
-  * Thank-you Page
-  The Thank-you Page is designed to acknowledge and appreciate users who have taken actions such as signing up for membership or submitting a recipe. It features a warm message of gratitude, reinforcing the community-oriented spirit of Curry Lovers. The page may also include recommendations for next steps, such as exploring more content or engaging with the community.
+* Thank-you Page
+The Thank-you Page is designed to acknowledge and appreciate users who have taken actions such as signing up for membership or submitting a recipe. It features a warm message of gratitude, reinforcing the community-oriented spirit of Curry Lovers. The page may also include recommendations for next steps, such as exploring more content or engaging with the community.
 
-  * 404 Page
-  The 404 Page is a custom error page that appears when a user navigates to a non-existent page on the site. Instead of a standard error message, this page features a friendly and creative design that keeps the tone light and inviting. It provides clear navigation options to help users quickly find their way back to relevant content, ensuring a smooth and frustration-free user experience.
+* 404 Page
+The 404 Page is a custom error page that appears when a user navigates to a non-existent page on the site. Instead of a standard error message, this page features a friendly and creative design that keeps the tone light and inviting. It provides clear navigation options to help users quickly find their way back to relevant content, ensuring a smooth and frustration-free user experience.
 
-  * Future Implementations 
+### Future Implementations 
 
  The Curry Lovers website will be enhanced with the following features to provide users with a richer and more informative experience:
 
