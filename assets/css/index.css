@@ -1,7 +1,7 @@
 /* Index Page Specific Styles */
 /* Styling for the hero section */
 #hero {
-  background-image: url(../images/curry-variation.jpg);
+  background-image: url(../images/curry-variation.webp);
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -92,19 +92,19 @@ h2 {
 
 /* Sets background images for specific section images */
 .introduction-img {
-  background-image: url(../images/curry-rice-main.jpeg);
+  background-image: url(../images/curry-rice-main.webp);
 }
 
 .about-img {
-  background-image: url(../images/curry-pod.jpeg);
+  background-image: url(../images/curry-pod.webp);
 }
 
 .mission-img {
-  background-image: url(../images/mission.jpeg);
+  background-image: url(../images/mission.webp);
 }
 
 .activities-img {
-  background-image: url(../images/activity.jpg);
+  background-image: url(../images/activity.webp);
 }
 
 /* Styling for mission and activity lists */
@@ -180,19 +180,19 @@ h2 {
 
 /* Background images for specific gallery columns */
 .column-a {
-  background-image: url(../images/curry-udon.jpeg);
+  background-image: url(../images/curry-udon.webp);
 }
 
 .column-b {
-  background-image: url(../images/baked-curry.jpeg);
+  background-image: url(../images/baked-curry.webp);
 }
 
 .column-c {
-  background-image: url(../images/curry-croquette.jpeg);
+  background-image: url(../images/croque.webp);
 }
 
 .column-d {
-  background-image: url(../images/curry-bread.jpeg);
+  background-image: url(../images/curry-bread.webp);
 }
 
 /* Media queries for responsiveness */
