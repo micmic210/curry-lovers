@@ -5,7 +5,7 @@ Welcome to Curry Lovers – your go-to community for all things Japanese Curry! 
 Join us as we explore recipes, share tips, and connect with fellow enthusiasts who share a love for this delicious and satisfying cuisine. Dive into the world of Japanese curry with us!
 
 ![Screenshot of a responsive design]
-(https://micmic210.github.io/curry-fun-club/assets/images/responsive.png)
+
 
 ## Contents 
 ### User Experience
