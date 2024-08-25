@@ -133,27 +133,27 @@ span {
 /* Individual images */
 /* Sets specific background images for recipe images */
 .curry-set-img {
-  background-image: url(../images/curry-set.jpg);
+  background-image: url(../images/curry-set.webp);
 }
 
 .curry-pod-img {
-  background-image: url(../images/curry-pod.jpeg);
+  background-image: url(../images/curry-pod.webp);
 }
 
 .curry-udon-img {
-  background-image: url(../images/curry-udon.jpeg);
+  background-image: url(../images/curry-udon.webp);
 }
 
 .baked-curry-img {
-  background-image: url(../images/baked-curry.jpeg);
+  background-image: url(../images/baked-curry.webp);
 }
 
 .curry-croquette-img {
-  background-image: url(../images/curry-croquette.jpeg);
+  background-image: url(../images/croque.webp);
 }
 
 .curry-bread-img {
-  background-image: url(../images/curry-bread.jpeg);
+  background-image: url(../images/curry-bread.webp);
 }
 
 /* Styling for side dish images */
@@ -169,11 +169,11 @@ span {
 
 /* Sets specific background images for the round images */
 .fukujinzuke-img {
-  background-image: url(../images/fukujinzuke.jpg);
+  background-image: url(../images/fukujinzuke.webp);
 }
 
 .rakkyo-img {
-  background-image: url(../images/rakkyo.jpg);
+  background-image: url(../images/rakkyo.webp);
 }
 
 /* Tablet Styles (min-width: 768px to 1024px) */
