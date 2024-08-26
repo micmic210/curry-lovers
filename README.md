@@ -72,6 +72,25 @@ The Curry Lovers website features Poppins for headings, adding a modern, elegant
 High-quality images of Japanese curry dishes and related visuals are used throughout the site to engage users and provide a mouthwatering experience. These images are integral to the design, helping to convey the rich and comforting nature of the dishes featured on the site.
 
 #### Wireframes
+Here are the wireframes I have prepared to illustrate the user interface design across different devices—mobile, tablet, and desktop—ensuring a consistent and optimized user experience for each screen size.
+
+`The Home Page`
+![home](/documentation/curry-lovers-home.webp)
+
+`The History Page`
+![history](/documentation/curry-lovers-history.webp)
+
+`The Recipes Page`
+![recipes](/documentation/curry-lovers-recipes.webp)
+
+`The Membership Page`
+![membership](/documentation/curry-lovers-membership.webp)
+
+`The Thank-you Page`
+![thank-you](/documentation/curry-lovers-thank-you.webp)
+
+`The 404 Page`
+![404](/documentation/curry-lovers-404.webp)
 
 #### Features 
 
