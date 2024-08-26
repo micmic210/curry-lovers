@@ -32,7 +32,6 @@ Here's the website: [CURRY LOVERS](https://micmic210.github.io/curry-lovers/inde
     * [How to Clone](#how-to-clone)
 * [Testing](#testing)
   * [Solved Bugs](#solved-bugs)
-  * [Known Bugs](#known-bugs)
 * [Credits](#credits)
   * [Code Used](#code-used)
   * [Content](#content)
@@ -200,8 +199,14 @@ git clone https://github.com/YOUR-USERNAME/curry-lovers.git
 ## Testing 
 Please refer to [TESTING.md](/TESTING.md) for detailed test results and insights from the testing process.
 
-  ### Solved Bugs
-  ### Known Bugs
+### Solved Bugs
+1. Favicon not appearing on the deployed website
+Description: After deploying the website, the favicon was not displaying in the browser tab.
+Fix: Uploaded a favicon.ico and added versioning to the favicon link to ensure browsers load the updated icon
+
+2. ES6 Syntax Compatibility
+Issue: The warnings about const being available only in ES6 indicate that the script might not be compatible with environments that don’t support ES6.
+Fix: Replaced the const keyword with var to ensure compatibility with all JavaScript environments, including those that do not support ES6.
 
 - - - 
 
