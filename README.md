@@ -35,7 +35,7 @@ Here's the website: [CURRY LOVERS](https://micmic210.github.io/curry-lovers/inde
   * [Known Bugs](#known-bugs)
 * [Credits](#credits)
   * [Code Used](#code-used)
-  * [Content](#contents)
+  * [Content](#content)
   * [Media](#media)
   * [Acknowledgments](#acknowledgments)
 
@@ -150,16 +150,16 @@ The Curry Lovers website is built using a combination of modern web development 
 
 ### Frameworks, Libraries & Programs Used
 
-Balsamiq: Created wireframes for the site.
-GitHub: Version control and file storage.
-GitPod: IDE for site development.
-Google Fonts: Imported custom fonts.
-Google Developer Tools: Debugging, testing features, and ensuring responsiveness.
-TinyPNG: Image compression.
-Birme: Image resizing and webp format conversion.
-Favicon.io: Favicon creation.
-Am I Responsive?: Displayed website previews across various devices.
-Grammarly: Checked spelling and grammar.
+* Balsamiq: Created wireframes for the site.
+* GitHub: Version control and file storage.
+* GitPod: IDE for site development.
+* Google Fonts: Imported custom fonts.
+* Google Developer Tools: Debugging, testing features, and ensuring responsiveness.
+* TinyPNG: Image compression.
+* Birme: Image resizing and webp format conversion.
+* Favicon.io: Favicon creation.
+* Am I Responsive?: Displayed website previews across various devices.
+* Grammarly: Checked spelling and grammar.
 
 - - - 
 
