@@ -25,7 +25,8 @@ Visit the site here: [CURRY LOVERS](https://micmic210.github.io/curry-lovers/ind
 [W3C Validator](https://validator.w3.org/):
 All HTML and CSS files for the Curry Lovers website were tested using the W3C Validator tools, and no errors were found. Below is a list of the validated files:
 
-HTML Files:
+HTML Files: 
+![html](/documentation/html.webp)
 * index.html: Passed validation with no errors.
 * history.html: Passed validation with no errors.
 * recipes.html: Passed validation with no errors.
@@ -33,6 +34,7 @@ HTML Files:
 * 404.html: Passed validation with no errors.
 
 CSS Files:
+![css](/documentation/cl-css.webp)
 * style.css: Passed validation with no errors.
 * index.css: Passed validation with no errors.
 * history.css: Passed validation with no errors.
