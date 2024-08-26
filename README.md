@@ -65,7 +65,13 @@ The dominant color, #D77921, is a vibrant orange that evokes the warmth and spic
 
 #### Typography
 
-The Curry Lovers website features Poppins for headings, adding a modern, elegant touch, and Roboto for body text, ensuring readability across all devices. Both fonts are well-suited for food-related designs, enhancing the visual appeal and making the content inviting and accessible.
+The Curry Lovers website features Poppins for headings, adding a modern, elegant touch that elevates the overall design. This font choice contributes to a clean, contemporary look, perfect for showcasing the website’s vibrant content.
+
+![poppins-title](/documentation/poppins-title.webp)
+
+Roboto is used for body text, ensuring excellent readability across all devices. This versatile font complements the Poppins headings, making the content easily accessible and visually appealing. Both fonts are particularly well-suited for food-related designs, enhancing the inviting nature of the site.
+
+![rototo](/documentation/roboto.webp)
 
 #### Imagery
 
@@ -88,6 +94,7 @@ Here are the wireframes I have prepared to illustrate the user interface design 
 
 `The Thank-you Page`
 ![thank-you](/documentation/curry-lovers-thank-you.webp)
+
 
 `The 404 Page`
 ![404](/documentation/curry-lovers-404.webp)
