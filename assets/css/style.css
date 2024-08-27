@@ -13,6 +13,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  flex: 1;
   color: #696969;
   font-family: 'Roboto', sans-serif;
 }
@@ -142,6 +143,8 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: relative;
+  bottom: 0;
 }
 
 /* Styling for the social networks list */
