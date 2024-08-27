@@ -216,7 +216,15 @@ footer {
   .toggle-bars-label {
     display: none;
   }
+  /* Hover effect for navigation links */
+  nav ul#menu li a:hover {
+    color: #d77921; 
+  }
 
+  nav ul#menu li a.active {
+    color: #d77921; 
+  }
+}
   h1 {
     font-size: 2.5rem;
   }
